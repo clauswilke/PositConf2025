@@ -166,5 +166,40 @@
     "title": "Talk title",
     "section": "Slide title",
     "text": "Slide title\nSlide content"
+  },
+  {
+    "objectID": "slides/talk.html#requirements-for-an-r-based-data-science-class",
+    "href": "slides/talk.html#requirements-for-an-r-based-data-science-class",
+    "title": "Talk title",
+    "section": "Requirements for an R-based data science class",
+    "text": "Requirements for an R-based data science class\n\n\nWebsite\nSlides with code and output\nInteractive exercises\nStudent assignments\nDemo/support apps"
+  },
+  {
+    "objectID": "slides/talk.html#challenges-interactive-exercises",
+    "href": "slides/talk.html#challenges-interactive-exercises",
+    "title": "Talk title",
+    "section": "Challenges: Interactive exercises",
+    "text": "Challenges: Interactive exercises\n\n\nshiny/learnr requires a backend webserver\nalternatively, students can run learnr documents locally, but that’s ugly"
+  },
+  {
+    "objectID": "slides/talk.html#challenges-student-assignments",
+    "href": "slides/talk.html#challenges-student-assignments",
+    "title": "Talk title",
+    "section": "Challenges: Student assignments",
+    "text": "Challenges: Student assignments\n\n\nin general, pdf is the best format for submissions\nconverting markdown into pdf is complicated (latex installation etc.)"
+  },
+  {
+    "objectID": "slides/talk.html#challenges-demosupport-apps",
+    "href": "slides/talk.html#challenges-demosupport-apps",
+    "title": "Talk title",
+    "section": "Challenges: Demo/support apps",
+    "text": "Challenges: Demo/support apps\n\n\nSame problems as learnr documents, need webserver or run locally"
+  },
+  {
+    "objectID": "slides/talk.html#quarto-with-webr-and-typst-can-do-everything-we-need",
+    "href": "slides/talk.html#quarto-with-webr-and-typst-can-do-everything-we-need",
+    "title": "Talk title",
+    "section": "Quarto with webr and typst can do everything we need",
+    "text": "Quarto with webr and typst can do everything we need"
   }
 ]

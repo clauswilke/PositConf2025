@@ -14,6 +14,34 @@ execute:
   fig-width: 5.5
 ---
 
-## Slide title
+## Requirements for an R-based data science class
 
-Slide content
+:::{.small-font}
+- Website
+- Slides with code and output
+- Interactive exercises
+- Student assignments
+- Demo/support apps
+:::
+
+## Challenges: Interactive exercises
+
+:::{.small-font}
+- shiny/learnr requires a backend webserver
+- alternatively, students can run learnr documents locally, but that's ugly
+:::
+
+## Challenges: Student assignments
+
+:::{.small-font}
+- in general, pdf is the best format for submissions
+- converting markdown into pdf is complicated (latex installation etc.)
+:::
+
+## Challenges: Demo/support apps
+
+:::{.small-font}
+- Same problems as learnr documents, need webserver or run locally
+:::
+
+## Quarto with webr and typst can do everything we need
