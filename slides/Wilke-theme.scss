@@ -1,0 +1,224 @@
+/* Reveal theme modifications (applied to default) for
+ * Wilke slide theme
+ */
+
+/*-- scss:defaults --*/
+
+// Include theme-specific font
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+// fonts
+$font-family-sans-serif: 'Lato', Arial, sans-serif;
+$font-family-monospace: 'Roboto Mono', 'Lucida Console', Monaco, Consolas, monospace; 
+$presentation-heading-font: 'Roboto Condensed', 'Arial Narrow OS', Arial, sans-serif;
+$presentation-font-size-root: 32px; //36px;
+$presentation-h1-font-size:	1.46em; // 1.3em;
+$presentation-h2-font-size:	1.46em; // 1.3em;
+$presentation-h3-font-size:	1.35em; // 1.2em;
+$presentation-h4-font-size:	1.35em; // 1.2em;
+$presentation-heading-font-weight: 400;
+$code-block-font-size: 0.74em; // equivalent to .tiny-font by default
+
+/*-- scss:rules --*/
+
+.large-font { font-size: 1.125em; }
+.small-font { font-size: 0.86em; }
+.smaller-font { font-size: 0.74em; }
+.tiny-font { font-size: 0.66em; }
+.xtiny-font { font-size: 0.55em; }
+
+.title-font { 
+  font-family: 'Roboto Condensed', 'Arial Narrow OS', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.63em;
+}
+
+.reveal h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+// Make inline code slightly smaller; prevents vertical jumps
+//   from slides with to slides without inline code.
+//   
+// Inline code is not a child of <pre>, hence the not selector.
+   
+.reveal code:not(pre > code) {
+  font-size: 0.94em; line-height: 1.0;
+}
+
+// Style to highlight text
+.highlight { font-weight: bold; color: #91322F; }
+
+.center-text {
+  text-align: center;
+}
+
+// classes to manipulate vertical spacing
+.move-up-half-em {
+  margin-top: -0.5em;
+}
+
+.move-up-1em {
+  margin-top: -1em;
+}
+
+.move-up-2em {
+  margin-top: -2em;
+}
+
+.move-up-3em {
+  margin-top: -3em;
+}
+
+.move-up-4em {
+  margin-top: -4em;
+}
+
+.move-up-5em {
+  margin-top: -5em;
+}
+
+.move-up-6em {
+  margin-top: -6em;
+}
+
+.move-down-1em {
+  margin-top: 1em;
+}
+
+.move-down-2em {
+  margin-top: 2em;
+}
+
+.move-down-3em {
+  margin-top: 3em;
+}
+
+.width-10 {
+  width: 10%
+}
+.width-15 {
+  width: 15%
+}
+.width-20 {
+  width: 20%
+}
+.width-25 {
+  width: 25%
+}
+.width-30 {
+  width: 30%
+}
+.width-35 {
+  width: 35%
+}
+.width-40 {
+  width: 40%
+}
+.width-45 {
+  width: 45%
+}
+.width-50 {
+  width: 50%
+}
+.width-55 {
+  width: 55%
+}
+.width-60 {
+  width: 60%
+}
+.width-65 {
+  width: 65%
+}
+.width-70 {
+  width: 70%
+}
+.width-75 {
+  width: 75%
+}
+.width-80 {
+  width: 80%
+}
+.width-85 {
+  width: 85%
+}
+.width-90 {
+  width: 90%
+}
+
+
+.absolute-bottom-left {
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+}
+
+.absolute-bottom-right {
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+}
+
+.date {
+  font-size: 0.74em;
+}
+
+.date:before {
+  content: "Last updated: ";
+}
+
+figcaption {
+  display: none;
+}
+
+// ensure that code to left of figures doesn't have
+// code blocks with extra height
+.reveal .column-output-location .column:first-of-type div.sourceCode {
+  height: auto;
+}
+
+// .nogap class to remove all margins around figures
+.reveal .nogap img {margin-top: 0; margin-bottom: 0}
+.reveal .nogap div.quarto-figure {margin-top: 0; margin-bottom: 0}
+
+// don't impose max height on images (can mess with aspect ratio)
+.reveal img {
+  max-height: unset;
+}
+
+// table formatting
+.reveal table th {
+    padding: .1em .5em .1em .5em;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.reveal table td {
+    padding: .1em .5em .1em .5em;
+    border-bottom: 0px;
+}
+
+.reveal table tr.header {
+    background-color: #e0e0e0;
+}
+
+.reveal table tr.even {
+    background-color: #e0e0e0;
+}
+
+.reveal table tr:last-of-type {
+    border-bottom: 1px solid;
+}
+
+.highlight { font-weight: bold; color: #91322F; }
+
+.html-example {
+  padding: 1em;
+  border: solid 0.5px black;
+  margin-left: auto;  
+  margin-right: auto;
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "slides/talk.html#data-visualization-is-integral-to-data-science",
+    "href": "slides/talk.html#data-visualization-is-integral-to-data-science",
+    "title": "Introduction",
+    "section": "Data visualization is integral to data science",
+    "text": "Data visualization is integral to data science"
+  },
+  {
+    "objectID": "slides/talk.html#data-visualization-is-integral-to-data-science-1",
+    "href": "slides/talk.html#data-visualization-is-integral-to-data-science-1",
+    "title": "Introduction",
+    "section": "Data visualization is integral to data science",
+    "text": "Data visualization is integral to data science"
+  },
+  {
+    "objectID": "slides/talk.html#we-will-use-r-throughout-this-class",
+    "href": "slides/talk.html#we-will-use-r-throughout-this-class",
+    "title": "Introduction",
+    "section": "We will use R throughout this class",
+    "text": "We will use R throughout this class"
+  },
+  {
+    "objectID": "slides/talk.html#what-about-python",
+    "href": "slides/talk.html#what-about-python",
+    "title": "Introduction",
+    "section": "What about Python?",
+    "text": "What about Python?\n\n\nCan we use Python for assignments in this class?\nNo, all assignments require R\nWill what we learn here apply to Python?\nYes, all concepts carry over; also, look into plotnine\n\n\n\n\n\nhttps://plotnine.org/"
+  },
+  {
+    "objectID": "slides/talk.html#who-am-i",
+    "href": "slides/talk.html#who-am-i",
+    "title": "Introduction",
+    "section": "Who am I?",
+    "text": "Who am I?"
+  },
+  {
+    "objectID": "slides/talk.html#who-am-i-1",
+    "href": "slides/talk.html#who-am-i-1",
+    "title": "Introduction",
+    "section": "Who am I?",
+    "text": "Who am I?\n\n\nhttps://clauswilke.com/dataviz"
+  },
+  {
+    "objectID": "slides/talk.html#who-am-i-2",
+    "href": "slides/talk.html#who-am-i-2",
+    "title": "Introduction",
+    "section": "Who am I?",
+    "text": "Who am I?"
+  },
+  {
+    "objectID": "slides/talk.html#slides-and-worksheets-are-posted-on-the-class-website",
+    "href": "slides/talk.html#slides-and-worksheets-are-posted-on-the-class-website",
+    "title": "Introduction",
+    "section": "Slides and worksheets are posted on the class website",
+    "text": "Slides and worksheets are posted on the class website\n\n\n\n\nhttps://wilkelab.org/DSC385"
+  },
+  {
+    "objectID": "slides/talk.html#the-source-for-the-class-website-is-on-github",
+    "href": "slides/talk.html#the-source-for-the-class-website-is-on-github",
+    "title": "Introduction",
+    "section": "The source for the class website is on GitHub",
+    "text": "The source for the class website is on GitHub\n\n\n\n\nhttps://github.com/wilkelab/DSC385"
+  },
+  {
+    "objectID": "slides/talk.html#the-source-for-the-class-website-is-on-github-1",
+    "href": "slides/talk.html#the-source-for-the-class-website-is-on-github-1",
+    "title": "Introduction",
+    "section": "The source for the class website is on GitHub",
+    "text": "The source for the class website is on GitHub\n\n\n\n\nhttps://github.com/wilkelab/DSC385"
+  },
+  {
+    "objectID": "slides/talk.html#press-e-to-save-slides-as-pdf",
+    "href": "slides/talk.html#press-e-to-save-slides-as-pdf",
+    "title": "Introduction",
+    "section": "Press ‘e’ to save slides as PDF",
+    "text": "Press ‘e’ to save slides as PDF\n\n\n\n(Works best on Chrome)"
+  },
+  {
+    "objectID": "slides/talk.html#setting-up-a-working-r-environment",
+    "href": "slides/talk.html#setting-up-a-working-r-environment",
+    "title": "Introduction",
+    "section": "Setting up a working R environment",
+    "text": "Setting up a working R environment\n\nTo run R on your own computer:"
+  },
+  {
+    "objectID": "slides/talk.html#setting-up-a-working-r-environment-1",
+    "href": "slides/talk.html#setting-up-a-working-r-environment-1",
+    "title": "Introduction",
+    "section": "Setting up a working R environment",
+    "text": "Setting up a working R environment\nTo run R on your own computer:\n\nDownload R from here: https://cloud.r-project.org/"
+  },
+  {
+    "objectID": "slides/talk.html#setting-up-a-working-r-environment-2",
+    "href": "slides/talk.html#setting-up-a-working-r-environment-2",
+    "title": "Introduction",
+    "section": "Setting up a working R environment",
+    "text": "Setting up a working R environment\nTo run R on your own computer:\n\nDownload R from here: https://cloud.r-project.org/\nDownload either RStudio or Positron\nRStudio: https://posit.co/download/rstudio-desktop/\nPositron: https://positron.posit.co/"
+  },
+  {
+    "objectID": "slides/talk.html#setting-up-a-working-r-environment-3",
+    "href": "slides/talk.html#setting-up-a-working-r-environment-3",
+    "title": "Introduction",
+    "section": "Setting up a working R environment",
+    "text": "Setting up a working R environment\nTo run R in a web browser:"
+  },
+  {
+    "objectID": "slides/talk.html#setting-up-a-working-r-environment-4",
+    "href": "slides/talk.html#setting-up-a-working-r-environment-4",
+    "title": "Introduction",
+    "section": "Setting up a working R environment",
+    "text": "Setting up a working R environment\nTo run R in a web browser:\nGo to the Posit Cloud here: https://posit.cloud/\n(You get 25 hours/month for free; see here for pricing)"
+  },
+  {
+    "objectID": "slides/talk.html#setting-up-a-working-r-environment-5",
+    "href": "slides/talk.html#setting-up-a-working-r-environment-5",
+    "title": "Introduction",
+    "section": "Setting up a working R environment",
+    "text": "Setting up a working R environment\nOnce R is running, you need to install required R packages"
+  },
+  {
+    "objectID": "slides/talk.html#setting-up-a-working-r-environment-6",
+    "href": "slides/talk.html#setting-up-a-working-r-environment-6",
+    "title": "Introduction",
+    "section": "Setting up a working R environment",
+    "text": "Setting up a working R environment\nOnce R is running, you need to install required R packages\nInstallation instructions are on the class website"
+  },
+  {
+    "objectID": "slides/talk.html#setting-up-a-working-r-environment-7",
+    "href": "slides/talk.html#setting-up-a-working-r-environment-7",
+    "title": "Introduction",
+    "section": "Setting up a working R environment",
+    "text": "Setting up a working R environment\nOnce R is running, you need to install required R packages\nInstallation instructions are on the class website\nAll packages listed on the class website are fair game in assignments"
+  },
+  {
+    "objectID": "slides/talk.html#we-will-use-quarto-for-all-assignments",
+    "href": "slides/talk.html#we-will-use-quarto-for-all-assignments",
+    "title": "Introduction",
+    "section": "We will use Quarto for all assignments",
+    "text": "We will use Quarto for all assignments\n\n\n\n\nhttps://quarto.org/"
+  },
+  {
+    "objectID": "slides/talk.html#how-to-succeed-in-this-class-1",
+    "href": "slides/talk.html#how-to-succeed-in-this-class-1",
+    "title": "Introduction",
+    "section": "How to succeed in this class",
+    "text": "How to succeed in this class\n\n\nThe class is about communication, not programming\nDo all the exercises, even the low-stakes ones\nParticipate in the discussion forums, answer questions\nDon’t rely on ChatGPT or other generative AI\nIf anything goes wrong, send an email to the class email address\nPay attention to deadlines and time zones"
+  },
+  {
+    "objectID": "slides/talk.html#further-reading",
+    "href": "slides/talk.html#further-reading",
+    "title": "Introduction",
+    "section": "Further reading",
+    "text": "Further reading\n\nFundamentals of Data Visualization: Read the book online\nQuarto docs: Comprehensive guide"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Title",
+    "section": "",
+    "text": "This page contains materials for Claus O. Wilke’s talk at Posit::Conf(2025)."
+  },
+  {
+    "objectID": "slides/talk.html#slide-title",
+    "href": "slides/talk.html#slide-title",
+    "title": "Talk title",
+    "section": "Slide title",
+    "text": "Slide title\nSlide content"
+  }
+]

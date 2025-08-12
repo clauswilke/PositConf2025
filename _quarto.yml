@@ -1,0 +1,40 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!assets/"
+  resources:
+    - "assets/"
+
+website:
+  title: "Title"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+    right:
+      - href: slides/talk.qmd
+        text: Slides
+        
+    tools:
+      - icon: github
+        href: "https://github.com/clauswilke/PositConf2025"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: [solar, theme-dark.scss]
+    css: styles.css
+    toc: true
+  live-html:
+    theme:
+      light: cosmo
+      dark: [solar, theme-dark.scss]
+    css: styles.css
+    toc: true
+execute: 
+  freeze: auto
+
+
