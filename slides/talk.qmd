@@ -1,5 +1,5 @@
 ---
-title: "Talk title"
+title: "Teaching data visualization with R<br>entirely in Quarto"
 author: "Claus O. Wilke"
 date: last-modified
 format: 
@@ -13,6 +13,20 @@ execute:
   fig-asp: 0.618
   fig-width: 5.5
 ---
+
+## Hook
+
+Learnr sessions break on edupod
+
+::: {.notes}
+Possible images:
+
+https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVDnarks
+https://unsplash.com/photos/a-person-sitting-at-a-desk-with-a-laptop-and-a-cell-phone-QFe8yjZcirg
+https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA
+https://unsplash.com/photos/a-woman-covering-her-face-while-looking-at-a-laptop-yusHnkBhF3Q
+:::
+
 
 ## Requirements for an R-based data science class
 
@@ -45,3 +59,14 @@ execute:
 :::
 
 ## Quarto with webr and typst can do everything we need
+
+
+## I first saw all the puzzle pieces coming together at Posit::Conf(2024)
+
+
+## What is the benefit
+
+- A single framework
+- live exercises are so much easier
+- students have carry-over
+

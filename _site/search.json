@@ -170,36 +170,57 @@
   {
     "objectID": "slides/talk.html#requirements-for-an-r-based-data-science-class",
     "href": "slides/talk.html#requirements-for-an-r-based-data-science-class",
-    "title": "Talk title",
+    "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Requirements for an R-based data science class",
     "text": "Requirements for an R-based data science class\n\n\nWebsite\nSlides with code and output\nInteractive exercises\nStudent assignments\nDemo/support apps"
   },
   {
     "objectID": "slides/talk.html#challenges-interactive-exercises",
     "href": "slides/talk.html#challenges-interactive-exercises",
-    "title": "Talk title",
+    "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Challenges: Interactive exercises",
     "text": "Challenges: Interactive exercises\n\n\nshiny/learnr requires a backend webserver\nalternatively, students can run learnr documents locally, but that’s ugly"
   },
   {
     "objectID": "slides/talk.html#challenges-student-assignments",
     "href": "slides/talk.html#challenges-student-assignments",
-    "title": "Talk title",
+    "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Challenges: Student assignments",
     "text": "Challenges: Student assignments\n\n\nin general, pdf is the best format for submissions\nconverting markdown into pdf is complicated (latex installation etc.)"
   },
   {
     "objectID": "slides/talk.html#challenges-demosupport-apps",
     "href": "slides/talk.html#challenges-demosupport-apps",
-    "title": "Talk title",
+    "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Challenges: Demo/support apps",
     "text": "Challenges: Demo/support apps\n\n\nSame problems as learnr documents, need webserver or run locally"
   },
   {
     "objectID": "slides/talk.html#quarto-with-webr-and-typst-can-do-everything-we-need",
     "href": "slides/talk.html#quarto-with-webr-and-typst-can-do-everything-we-need",
-    "title": "Talk title",
+    "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Quarto with webr and typst can do everything we need",
     "text": "Quarto with webr and typst can do everything we need"
+  },
+  {
+    "objectID": "slides/talk.html#i-first-saw-all-the-puzzle-pieces-coming-together-at-positconf2024",
+    "href": "slides/talk.html#i-first-saw-all-the-puzzle-pieces-coming-together-at-positconf2024",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "I first saw all the puzzle pieces coming together at Posit::Conf(2024)",
+    "text": "I first saw all the puzzle pieces coming together at Posit::Conf(2024)"
+  },
+  {
+    "objectID": "slides/talk.html#what-is-the-benefit",
+    "href": "slides/talk.html#what-is-the-benefit",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "What is the benefit",
+    "text": "What is the benefit\n\nA single framework\nlive exercises are so much easier\nstudents have carry-over"
+  },
+  {
+    "objectID": "slides/talk.html#hook",
+    "href": "slides/talk.html#hook",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Hook",
+    "text": "Hook\nLearnr sessions break on edupod\n\nSpeaker notes go here."
   }
 ]
