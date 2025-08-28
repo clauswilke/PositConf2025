@@ -188,7 +188,7 @@ Quarto provides a single, unified framework for both instructor and students
 <https://clauswilke.com/PositConf2025>
 :::
 
-## Is this the right approach for you?
+## Is this approach right for you?
 
 
 ![](../assets/juan-rumimpunu-nLXOatvTaLo-unsplash.jpg){width="80%" fig-align="center"}
