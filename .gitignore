@@ -49,3 +49,6 @@ po/*~
 rsconnect/
 
 /.quarto/
+
+# Mac-specific settings
+.DS_Store

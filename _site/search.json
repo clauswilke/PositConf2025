@@ -179,14 +179,14 @@
     "href": "slides/talk.html#challenges-interactive-exercises",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Challenges: Interactive exercises",
-    "text": "Challenges: Interactive exercises\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally, but that’s ugly"
+    "text": "Challenges: Interactive exercises\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally (confusing and ugly)"
   },
   {
     "objectID": "slides/talk.html#challenges-student-assignments",
     "href": "slides/talk.html#challenges-student-assignments",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Challenges: Student assignments",
-    "text": "Challenges: Student assignments\n\n\nIn general, pdf is the best format for submissions\nConverting markdown into pdf is complicated (latex installation etc.)"
+    "text": "Challenges: Student assignments\n\n\nIn general, pdf is the best format for submissions\nConverting markdown into pdf is complicated"
   },
   {
     "objectID": "slides/talk.html#challenges-demosupport-apps",
@@ -228,7 +228,7 @@
     "href": "slides/talk.html#no-matter-how-much-you-prepare-things-will-go-wrong",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "No matter how much you prepare, things will go wrong",
-    "text": "No matter how much you prepare, things will go wrong\n\n\n\n\n\n\nPhoto by Resume Genius on Unsplash. https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVDnarks\nOther images, not used: https://unsplash.com/photos/a-person-sitting-at-a-desk-with-a-laptop-and-a-cell-phone-QFe8yjZcirg https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA https://unsplash.com/photos/a-woman-covering-her-face-while-looking-at-a-laptop-yusHnkBhF3Q"
+    "text": "No matter how much you prepare, things will go wrong\n\n\n\n\n\n\nPhoto by Resume Genius on Unsplash. https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVDnarks"
   },
   {
     "objectID": "slides/talk.html#components-of-an-r-based-data-science-class",
@@ -319,6 +319,90 @@
     "href": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025-1",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "I completely reworked my class for spring 2025",
-    "text": "I completely reworked my class for spring 2025"
+    "text": "I completely reworked my class for spring 2025\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024",
+    "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces fell into place at Posit::conf(2024)",
+    "text": "All the pieces fell into place at Posit::conf(2024)"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-1",
+    "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-1",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces fell into place at Posit::conf(2024)",
+    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-2",
+    "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-2",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces fell into place at Posit::conf(2024)",
+    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-3",
+    "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-3",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces fell into place at Posit::conf(2024)",
+    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-4",
+    "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-4",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces fell into place at Posit::conf(2024)",
+    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-5",
+    "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-5",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces fell into place at Posit::conf(2024)",
+    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#a-simple-template-you-can-use-as-your-starting-point",
+    "href": "slides/talk.html#a-simple-template-you-can-use-as-your-starting-point",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "A simple template you can use as your starting point",
+    "text": "A simple template you can use as your starting point\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+  },
+  {
+    "objectID": "slides/talk.html#i-have-created-a-template-to-get-started",
+    "href": "slides/talk.html#i-have-created-a-template-to-get-started",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "I have created a template to get started",
+    "text": "I have created a template to get started\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+  },
+  {
+    "objectID": "slides/talk.html#should-you-use-this",
+    "href": "slides/talk.html#should-you-use-this",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Should you use this?",
+    "text": "Should you use this?\n\n\n\n\n\n\nPhoto by Juan Rumimpunu on Unsplash.\nhttps://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo"
+  },
+  {
+    "objectID": "slides/talk.html#i-have-created-a-simple-template-to-get-started",
+    "href": "slides/talk.html#i-have-created-a-simple-template-to-get-started",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "I have created a simple template to get started",
+    "text": "I have created a simple template to get started\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+  },
+  {
+    "objectID": "slides/talk.html#a-simple-template-to-get-you-started",
+    "href": "slides/talk.html#a-simple-template-to-get-you-started",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "A simple template to get you started",
+    "text": "A simple template to get you started\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+  },
+  {
+    "objectID": "slides/talk.html#is-this-the-right-approach-for-you",
+    "href": "slides/talk.html#is-this-the-right-approach-for-you",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Is this the right approach for you?",
+    "text": "Is this the right approach for you?\n\n\n\n\n\n\nPhoto by Juan Rumimpunu on Unsplash.\nhttps://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo"
   }
 ]

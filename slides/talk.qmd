@@ -8,6 +8,7 @@ format:
       - default
       - Wilke-theme.scss
     auto-stretch: false
+    link-external-newwindow: true
 execute:
   fig-format: svg
   fig-asp: 0.618
@@ -21,11 +22,6 @@ execute:
 ::: {.notes}
 Photo by Resume Genius on Unsplash.
 https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVDnarks
-
-Other images, not used:
-https://unsplash.com/photos/a-person-sitting-at-a-desk-with-a-laptop-and-a-cell-phone-QFe8yjZcirg
-https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA
-https://unsplash.com/photos/a-woman-covering-her-face-while-looking-at-a-laptop-yusHnkBhF3Q
 :::
 
 ## Components of an R-based data science class
@@ -65,14 +61,15 @@ Many of these technologies pose challenges
 
 :::{.incremental .small-font}
 - The learnr package requires a running webserver
-- Alternatively, students can run learnr documents locally, but that's ugly
+- Alternatively, students can run learnr documents locally<br>
+  (confusing and ugly)
 :::
 
 ## Challenges: Student assignments
 
 :::{.incremental .small-font}
 - In general, pdf is the best format for submissions
-- Converting markdown into pdf is complicated (latex installation etc.)
+- Converting markdown into pdf is complicated
 :::
 
 ## Challenges: Demo/support apps
@@ -81,8 +78,9 @@ Many of these technologies pose challenges
 - Same problems as learnr documents, we need a webserver or run locally
 :::
 
+## All the pieces fell into place at Posit::conf(2024)
 
-## All the pieces came together at Posit::conf(2024)
+## All the pieces fell into place at Posit::conf(2024)
 
 ![](../assets/positconf-video-thumbnail.jpg){width="90%" fig-align="center"}
 
@@ -90,7 +88,7 @@ Many of these technologies pose challenges
 <https://www.youtube.com/watch?v=s_Vh9HIeLVg>
 :::
 
-## All the pieces came together at Posit::conf(2024)
+## All the pieces fell into place at Posit::conf(2024)
 
 ![](../assets/positconf-video-typst1.png){width="90%" fig-align="center"}
 
@@ -102,7 +100,7 @@ Charlotte Wickham introduces typst
 <https://www.youtube.com/watch?v=s_Vh9HIeLVg>
 :::
 
-## All the pieces came together at Posit::conf(2024)
+## All the pieces fell into place at Posit::conf(2024)
 
 ![](../assets/positconf-video-typst2.png){width="90%" fig-align="center"}
 
@@ -114,7 +112,7 @@ Charlotte Wickham introduces typst
 <https://www.youtube.com/watch?v=s_Vh9HIeLVg>
 :::
 
-## All the pieces came together at Posit::conf(2024)
+## All the pieces fell into place at Posit::conf(2024)
 
 ![](../assets/positconf-video-webr1.png){width="90%" fig-align="center"}
 
@@ -126,7 +124,7 @@ George Stagg introduces webR and Quarto Live
 <https://www.youtube.com/watch?v=s_Vh9HIeLVg>
 :::
 
-## All the pieces came together at Posit::conf(2024)
+## All the pieces fell into place at Posit::conf(2024)
 
 ![](../assets/positconf-video-webr2.png){width="90%" fig-align="center"}
 
@@ -180,4 +178,23 @@ Quarto provides a single, unified framework for both instructor and students
 <https://wilkelab.org/SDS366>
 :::
 
-## I completely reworked my class for spring 2025
+## A simple template to get you started
+
+::: {.move-up-1em}
+![](../assets/demo-site.png){width="90%" fig-align="center"}
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<https://clauswilke.com/PositConf2025>
+:::
+
+## Is this the right approach for you?
+
+
+![](../assets/juan-rumimpunu-nLXOatvTaLo-unsplash.jpg){width="80%" fig-align="center"}
+
+::: {.notes}
+Photo by Juan Rumimpunu on Unsplash.
+
+https://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo
+:::
