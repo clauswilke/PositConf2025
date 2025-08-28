@@ -4,4 +4,4 @@ description: A demonstration of the powers of Quarto
 format: html
 ---
 
-This page contains materials for Claus O. Wilke's talk at Posit::Conf(2025). You can see the sources here: <https://github.com/clauswilke/PositConf2025>
+This page contains materials for Claus O. Wilke's talk at Posit::conf(2025). You can see the sources here: <https://github.com/clauswilke/PositConf2025>

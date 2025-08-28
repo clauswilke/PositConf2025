@@ -7,7 +7,7 @@ project:
     - "assets/"
 
 website:
-  title: "Title"
+  title: "Teaching with Quarto"
   navbar:
     left:
       - href: index.qmd

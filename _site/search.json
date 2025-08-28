@@ -158,7 +158,7 @@
     "href": "index.html",
     "title": "Teaching data visualization with R entirely in Quarto",
     "section": "",
-    "text": "This page contains materials for Claus O. Wilke’s talk at Posit::Conf(2025). You can see the sources here: https://github.com/clauswilke/PositConf2025"
+    "text": "This page contains materials for Claus O. Wilke’s talk at Posit::conf(2025). You can see the sources here: https://github.com/clauswilke/PositConf2025"
   },
   {
     "objectID": "slides/talk.html#slide-title",
