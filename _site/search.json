@@ -156,16 +156,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Title",
+    "title": "Teaching data visualization with R entirely in Quarto",
     "section": "",
-    "text": "This page contains materials for Claus O. Wilke’s talk at Posit::Conf(2025)."
+    "text": "This page contains materials for Claus O. Wilke’s talk at Posit::Conf(2025). You can see the sources here: https://github.com/clauswilke/PositConf2025"
   },
   {
     "objectID": "slides/talk.html#slide-title",
     "href": "slides/talk.html#slide-title",
-    "title": "Talk title",
+    "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Slide title",
-    "text": "Slide title\nSlide content"
+    "text": "Slide title\n\n\n\n\n\n\n\n\nhttps://wilkelab.org/SDS366"
   },
   {
     "objectID": "slides/talk.html#requirements-for-an-r-based-data-science-class",
@@ -179,21 +179,21 @@
     "href": "slides/talk.html#challenges-interactive-exercises",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Challenges: Interactive exercises",
-    "text": "Challenges: Interactive exercises\n\n\nshiny/learnr requires a backend webserver\nalternatively, students can run learnr documents locally, but that’s ugly"
+    "text": "Challenges: Interactive exercises\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally, but that’s ugly"
   },
   {
     "objectID": "slides/talk.html#challenges-student-assignments",
     "href": "slides/talk.html#challenges-student-assignments",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Challenges: Student assignments",
-    "text": "Challenges: Student assignments\n\n\nin general, pdf is the best format for submissions\nconverting markdown into pdf is complicated (latex installation etc.)"
+    "text": "Challenges: Student assignments\n\n\nIn general, pdf is the best format for submissions\nConverting markdown into pdf is complicated (latex installation etc.)"
   },
   {
     "objectID": "slides/talk.html#challenges-demosupport-apps",
     "href": "slides/talk.html#challenges-demosupport-apps",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Challenges: Demo/support apps",
-    "text": "Challenges: Demo/support apps\n\n\nSame problems as learnr documents, need webserver or run locally"
+    "text": "Challenges: Demo/support apps\n\n\nSame problems as learnr documents, we need a webserver or run locally"
   },
   {
     "objectID": "slides/talk.html#quarto-with-webr-and-typst-can-do-everything-we-need",
@@ -221,6 +221,104 @@
     "href": "slides/talk.html#hook",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Hook",
-    "text": "Hook\nLearnr sessions break on edupod\n\nSpeaker notes go here."
+    "text": "Hook\n\n\n\n\n\n\nPhoto by Resume Genius on Unsplash. https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVDnarks\nOther images, not used: https://unsplash.com/photos/a-person-sitting-at-a-desk-with-a-laptop-and-a-cell-phone-QFe8yjZcirg https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA https://unsplash.com/photos/a-woman-covering-her-face-while-looking-at-a-laptop-yusHnkBhF3Q"
+  },
+  {
+    "objectID": "slides/talk.html#no-matter-how-much-you-prepare-things-will-go-wrong",
+    "href": "slides/talk.html#no-matter-how-much-you-prepare-things-will-go-wrong",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "No matter how much you prepare, things will go wrong",
+    "text": "No matter how much you prepare, things will go wrong\n\n\n\n\n\n\nPhoto by Resume Genius on Unsplash. https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVDnarks\nOther images, not used: https://unsplash.com/photos/a-person-sitting-at-a-desk-with-a-laptop-and-a-cell-phone-QFe8yjZcirg https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA https://unsplash.com/photos/a-woman-covering-her-face-while-looking-at-a-laptop-yusHnkBhF3Q"
+  },
+  {
+    "objectID": "slides/talk.html#components-of-an-r-based-data-science-class",
+    "href": "slides/talk.html#components-of-an-r-based-data-science-class",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Components of an R-based data science class",
+    "text": "Components of an R-based data science class\n\n\nSlides with code and output \nWebsite \nInteractive exercises \nStudent assignments \nDemo/support apps"
+  },
+  {
+    "objectID": "slides/talk.html#components-of-an-r-based-data-science-class-1",
+    "href": "slides/talk.html#components-of-an-r-based-data-science-class-1",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Components of an R-based data science class",
+    "text": "Components of an R-based data science class\n\n\nSlides with code and outputxaringan / beamer / …\nWebsitedistill / blogdown / …\nInteractive exerciseslearnr\nStudent assignmentsRMarkdown templates\nDemo/support appsshiny apps\n\n\n\nMany of these technologies pose challenges"
+  },
+  {
+    "objectID": "slides/talk.html#positconf2024",
+    "href": "slides/talk.html#positconf2024",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Posit::Conf(2024)",
+    "text": "Posit::Conf(2024)\n\n\n\n\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024",
+    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces came together at Posit::conf(2024)",
+    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-1",
+    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-1",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces came together at Posit::conf(2024)",
+    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-2",
+    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-2",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces came together at Posit::conf(2024)",
+    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-3",
+    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-3",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces came together at Posit::conf(2024)",
+    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-4",
+    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-4",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All the pieces came together at Posit::conf(2024)",
+    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#components-of-an-r-based-data-science-class-2",
+    "href": "slides/talk.html#components-of-an-r-based-data-science-class-2",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Components of an R-based data science class",
+    "text": "Components of an R-based data science class\n\n\nSlides with code and output \nWebsite \nInteractive exercises \nStudent assignments \nDemo/support apps"
+  },
+  {
+    "objectID": "slides/talk.html#the-lightbulb-went-off-at-positconf2024",
+    "href": "slides/talk.html#the-lightbulb-went-off-at-positconf2024",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "The lightbulb went off at Posit::conf(2024)",
+    "text": "The lightbulb went off at Posit::conf(2024)\n\n\n\n\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+  },
+  {
+    "objectID": "slides/talk.html#components-of-an-r-based-data-science-class-3",
+    "href": "slides/talk.html#components-of-an-r-based-data-science-class-3",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Components of an R-based data science class",
+    "text": "Components of an R-based data science class\n\n\nSlides with code and outputQuarto + revealjs\nWebsiteQuarto + website\nInteractive exercisesQuarto Live\nStudent assignmentsQuarto + typst\nDemo/support appsQuarto + Shiny Live\n\n\n\nQuarto provides a single, unified framework for both instructor and students"
+  },
+  {
+    "objectID": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025",
+    "href": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "I completely reworked my class for spring 2025",
+    "text": "I completely reworked my class for spring 2025\n\n\n\n\n\n\n\n\nhttps://wilkelab.org/SDS366"
+  },
+  {
+    "objectID": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025-1",
+    "href": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025-1",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "I completely reworked my class for spring 2025",
+    "text": "I completely reworked my class for spring 2025"
   }
 ]

@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="Claus O. Wilke">
-  <meta name="dcterms.date" content="2025-08-13">
+  <meta name="dcterms.date" content="2025-08-28">
   <title>Title – Teaching data visualization with R entirely in Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -138,13 +138,18 @@ Claus O. Wilke
 </div>
 </div>
 
-  <p class="date">2025-08-13</p>
+  <p class="date">2025-08-28</p>
 </section>
-<section id="hook" class="slide level2">
-<h2>Hook</h2>
-<p>Learnr sessions break on edupod</p>
+<section id="no-matter-how-much-you-prepare-things-will-go-wrong" class="slide level2">
+<h2>No matter how much you prepare, things will go wrong</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../assets/resume-genius-f2JMVDnarks-unsplash.jpg" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
 <aside class="notes">
-<p>Speaker notes go here.</p>
+<p>Photo by Resume Genius on Unsplash. https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVDnarks</p>
+<p>Other images, not used: https://unsplash.com/photos/a-person-sitting-at-a-desk-with-a-laptop-and-a-cell-phone-QFe8yjZcirg https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA https://unsplash.com/photos/a-woman-covering-her-face-while-looking-at-a-laptop-yusHnkBhF3Q</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -157,24 +162,39 @@ Claus O. Wilke
           display:block!important;
       }</style></aside>
 </section>
-<section id="requirements-for-an-r-based-data-science-class" class="slide level2">
-<h2>Requirements for an R-based data science class</h2>
+<section id="components-of-an-r-based-data-science-class" class="slide level2">
+<h2>Components of an R-based data science class</h2>
 <div class="small-font">
 <ul>
-<li>Website</li>
-<li>Slides with code and output</li>
-<li>Interactive exercises</li>
-<li>Student assignments</li>
-<li>Demo/support apps</li>
+<li class="fragment"><p>Slides with code and output<br>&nbsp;</p></li>
+<li class="fragment"><p>Website<br>&nbsp;</p></li>
+<li class="fragment"><p>Interactive exercises<br>&nbsp;</p></li>
+<li class="fragment"><p>Student assignments<br>&nbsp;</p></li>
+<li class="fragment"><p>Demo/support apps<br>&nbsp;</p></li>
 </ul>
+</div>
+</section>
+<section id="components-of-an-r-based-data-science-class-1" class="slide level2">
+<h2>Components of an R-based data science class</h2>
+<div class="small-font">
+<ul>
+<li><p>Slides with code and output<br><span class="highlight">xaringan / beamer / …</span></p></li>
+<li><p>Website<br><span class="highlight">distill / blogdown / …</span></p></li>
+<li><p>Interactive exercises<br><span class="highlight">learnr</span></p></li>
+<li><p>Student assignments<br><span class="highlight">RMarkdown templates</span></p></li>
+<li><p>Demo/support apps<br><span class="highlight">shiny apps</span></p></li>
+</ul>
+</div>
+<div class="fragment small-font">
+<p>Many of these technologies pose challenges</p>
 </div>
 </section>
 <section id="challenges-interactive-exercises" class="slide level2">
 <h2>Challenges: Interactive exercises</h2>
 <div class="small-font">
 <ul>
-<li>shiny/learnr requires a backend webserver</li>
-<li>alternatively, students can run learnr documents locally, but that’s ugly</li>
+<li class="fragment">The learnr package requires a running webserver</li>
+<li class="fragment">Alternatively, students can run learnr documents locally, but that’s ugly</li>
 </ul>
 </div>
 </section>
@@ -182,8 +202,8 @@ Claus O. Wilke
 <h2>Challenges: Student assignments</h2>
 <div class="small-font">
 <ul>
-<li>in general, pdf is the best format for submissions</li>
-<li>converting markdown into pdf is complicated (latex installation etc.)</li>
+<li class="fragment">In general, pdf is the best format for submissions</li>
+<li class="fragment">Converting markdown into pdf is complicated (latex installation etc.)</li>
 </ul>
 </div>
 </section>
@@ -191,23 +211,119 @@ Claus O. Wilke
 <h2>Challenges: Demo/support apps</h2>
 <div class="small-font">
 <ul>
-<li>Same problems as learnr documents, need webserver or run locally</li>
+<li class="fragment">Same problems as learnr documents, we need a webserver or run locally</li>
 </ul>
 </div>
 </section>
-<section id="quarto-with-webr-and-typst-can-do-everything-we-need" class="slide level2">
-<h2>Quarto with webr and typst can do everything we need</h2>
+<section id="all-the-pieces-came-together-at-positconf2024" class="slide level2">
+<h2>All the pieces came together at Posit::conf(2024)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../assets/positconf-video-thumbnail.jpg" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+<div class="absolute-bottom-right tiny-font">
+<p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
+</div>
 </section>
-<section id="i-first-saw-all-the-puzzle-pieces-coming-together-at-positconf2024" class="slide level2">
-<h2>I first saw all the puzzle pieces coming together at Posit::Conf(2024)</h2>
+<section id="all-the-pieces-came-together-at-positconf2024-1" class="slide level2">
+<h2>All the pieces came together at Posit::conf(2024)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../assets/positconf-video-typst1.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+<div class="absolute-bottom-left small-font">
+<p>Charlotte Wickham introduces typst</p>
+</div>
+<div class="absolute-bottom-right tiny-font">
+<p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
+</div>
 </section>
-<section id="what-is-the-benefit" class="slide level2">
-<h2>What is the benefit</h2>
+<section id="all-the-pieces-came-together-at-positconf2024-2" class="slide level2">
+<h2>All the pieces came together at Posit::conf(2024)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../assets/positconf-video-typst2.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+<div class="absolute-bottom-left small-font">
+<p>Charlotte Wickham introduces typst</p>
+</div>
+<div class="absolute-bottom-right tiny-font">
+<p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
+</div>
+</section>
+<section id="all-the-pieces-came-together-at-positconf2024-3" class="slide level2">
+<h2>All the pieces came together at Posit::conf(2024)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../assets/positconf-video-webr1.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+<div class="absolute-bottom-left small-font">
+<p>George Stagg introduces webR and Quarto Live</p>
+</div>
+<div class="absolute-bottom-right tiny-font">
+<p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
+</div>
+</section>
+<section id="all-the-pieces-came-together-at-positconf2024-4" class="slide level2">
+<h2>All the pieces came together at Posit::conf(2024)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../assets/positconf-video-webr2.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+<div class="absolute-bottom-left small-font">
+<p>George Stagg introduces webR and Quarto Live</p>
+</div>
+<div class="absolute-bottom-right tiny-font">
+<p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
+</div>
+</section>
+<section id="components-of-an-r-based-data-science-class-2" class="slide level2">
+<h2>Components of an R-based data science class</h2>
+<div class="small-font">
 <ul>
-<li>A single framework</li>
-<li>live exercises are so much easier</li>
-<li>students have carry-over</li>
+<li><p>Slides with code and output<br>&nbsp;</p></li>
+<li><p>Website<br>&nbsp;</p></li>
+<li><p>Interactive exercises<br>&nbsp;</p></li>
+<li><p>Student assignments<br>&nbsp;</p></li>
+<li><p>Demo/support apps<br>&nbsp;</p></li>
 </ul>
+</div>
+</section>
+<section id="components-of-an-r-based-data-science-class-3" class="slide level2">
+<h2>Components of an R-based data science class</h2>
+<div class="small-font">
+<ul>
+<li><p>Slides with code and output<br><span class="highlight">Quarto + revealjs</span></p></li>
+<li><p>Website<br><span class="highlight">Quarto + website</span></p></li>
+<li><p>Interactive exercises<br><span class="highlight">Quarto Live</span></p></li>
+<li><p>Student assignments<br><span class="highlight">Quarto + typst</span></p></li>
+<li><p>Demo/support apps<br><span class="highlight">Quarto + Shiny Live</span></p></li>
+</ul>
+</div>
+<div class="fragment small-font">
+<p>Quarto provides a single, unified framework for both instructor and students</p>
+</div>
+</section>
+<section id="i-completely-reworked-my-class-for-spring-2025" class="slide level2">
+<h2>I completely reworked my class for spring 2025</h2>
+<div class="move-up-1em">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../assets/SDS366.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+</div>
+<div class="absolute-bottom-right tiny-font">
+<p><a href="https://wilkelab.org/SDS366" class="uri">https://wilkelab.org/SDS366</a></p>
+</div>
+</section>
+<section id="i-completely-reworked-my-class-for-spring-2025-1" class="slide level2">
+<h2>I completely reworked my class for spring 2025</h2>
 
 
 </section>

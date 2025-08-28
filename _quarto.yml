@@ -14,8 +14,18 @@ website:
         text: Home
 
     right:
-      - href: slides/talk.qmd
-        text: Slides
+      - text: Slides
+        menu:
+          - text: "Posit::conf(2025) talk"
+            href: slides/talk.qmd
+        
+      - text: Worksheets
+        menu:
+          - text: "Coming soon..."
+          
+      - text: Shiny apps
+        menu:
+          - text: "Coming soon..."
         
     tools:
       - icon: github

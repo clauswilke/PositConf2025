@@ -14,59 +14,170 @@ execute:
   fig-width: 5.5
 ---
 
-## Hook
+## No matter how much you prepare, things will go wrong
 
-Learnr sessions break on edupod
+![](../assets/resume-genius-f2JMVDnarks-unsplash.jpg){width="80%" fig-align="center"}
 
 ::: {.notes}
-Possible images:
-
+Photo by Resume Genius on Unsplash.
 https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVDnarks
+
+Other images, not used:
 https://unsplash.com/photos/a-person-sitting-at-a-desk-with-a-laptop-and-a-cell-phone-QFe8yjZcirg
 https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA
 https://unsplash.com/photos/a-woman-covering-her-face-while-looking-at-a-laptop-yusHnkBhF3Q
 :::
 
+## Components of an R-based data science class
 
-## Requirements for an R-based data science class
+:::{.incremental .small-font}
+- Slides with code and output<br>&nbsp;
+
+- Website<br>&nbsp;
+
+- Interactive exercises<br>&nbsp;
+
+- Student assignments<br>&nbsp;
+
+- Demo/support apps<br>&nbsp;
+:::
+
+## Components of an R-based data science class
 
 :::{.small-font}
-- Website
-- Slides with code and output
-- Interactive exercises
-- Student assignments
-- Demo/support apps
+- Slides with code and output<br>[xaringan / beamer / ...]{.highlight}
+
+- Website<br>[distill / blogdown / ...]{.highlight}
+
+- Interactive exercises<br>[learnr]{.highlight}
+
+- Student assignments<br>[RMarkdown templates]{.highlight}
+
+- Demo/support apps<br>[shiny apps]{.highlight}
 :::
+
+::: {.fragment .small-font}
+Many of these technologies pose challenges
+:::
+
 
 ## Challenges: Interactive exercises
 
-:::{.small-font}
-- shiny/learnr requires a backend webserver
-- alternatively, students can run learnr documents locally, but that's ugly
+:::{.incremental .small-font}
+- The learnr package requires a running webserver
+- Alternatively, students can run learnr documents locally, but that's ugly
 :::
 
 ## Challenges: Student assignments
 
-:::{.small-font}
-- in general, pdf is the best format for submissions
-- converting markdown into pdf is complicated (latex installation etc.)
+:::{.incremental .small-font}
+- In general, pdf is the best format for submissions
+- Converting markdown into pdf is complicated (latex installation etc.)
 :::
 
 ## Challenges: Demo/support apps
 
-:::{.small-font}
-- Same problems as learnr documents, need webserver or run locally
+:::{.incremental .small-font}
+- Same problems as learnr documents, we need a webserver or run locally
 :::
 
-## Quarto with webr and typst can do everything we need
 
+## All the pieces came together at Posit::conf(2024)
 
-## I first saw all the puzzle pieces coming together at Posit::Conf(2024)
+![](../assets/positconf-video-thumbnail.jpg){width="90%" fig-align="center"}
 
+::: {.absolute-bottom-right .tiny-font}
+<https://www.youtube.com/watch?v=s_Vh9HIeLVg>
+:::
 
-## What is the benefit
+## All the pieces came together at Posit::conf(2024)
 
-- A single framework
-- live exercises are so much easier
-- students have carry-over
+![](../assets/positconf-video-typst1.png){width="90%" fig-align="center"}
 
+::: {.absolute-bottom-left .small-font}
+Charlotte Wickham introduces typst
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<https://www.youtube.com/watch?v=s_Vh9HIeLVg>
+:::
+
+## All the pieces came together at Posit::conf(2024)
+
+![](../assets/positconf-video-typst2.png){width="90%" fig-align="center"}
+
+::: {.absolute-bottom-left .small-font}
+Charlotte Wickham introduces typst
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<https://www.youtube.com/watch?v=s_Vh9HIeLVg>
+:::
+
+## All the pieces came together at Posit::conf(2024)
+
+![](../assets/positconf-video-webr1.png){width="90%" fig-align="center"}
+
+::: {.absolute-bottom-left .small-font}
+George Stagg introduces webR and Quarto Live
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<https://www.youtube.com/watch?v=s_Vh9HIeLVg>
+:::
+
+## All the pieces came together at Posit::conf(2024)
+
+![](../assets/positconf-video-webr2.png){width="90%" fig-align="center"}
+
+::: {.absolute-bottom-left .small-font}
+George Stagg introduces webR and Quarto Live
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<https://www.youtube.com/watch?v=s_Vh9HIeLVg>
+:::
+
+## Components of an R-based data science class
+
+:::{.small-font}
+- Slides with code and output<br>&nbsp;
+
+- Website<br>&nbsp;
+
+- Interactive exercises<br>&nbsp;
+
+- Student assignments<br>&nbsp;
+
+- Demo/support apps<br>&nbsp;
+:::
+
+## Components of an R-based data science class
+
+:::{.small-font}
+- Slides with code and output<br>[Quarto + revealjs]{.highlight}
+
+- Website<br>[Quarto + website]{.highlight}
+
+- Interactive exercises<br>[Quarto Live]{.highlight}
+
+- Student assignments<br>[Quarto + typst]{.highlight}
+
+- Demo/support apps<br>[Quarto + Shiny Live]{.highlight}
+:::
+
+::: {.fragment .small-font}
+Quarto provides a single, unified framework for both instructor and students
+:::
+
+## I completely reworked my class for spring 2025
+
+::: {.move-up-1em}
+![](../assets/SDS366.png){width="90%" fig-align="center"}
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<https://wilkelab.org/SDS366>
+:::
+
+## I completely reworked my class for spring 2025
