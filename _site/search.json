@@ -411,5 +411,26 @@
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Is this approach right for you?",
     "text": "Is this approach right for you?\n\n\n\n\n\n\nPhoto by Juan Rumimpunu on Unsplash.\nhttps://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo"
+  },
+  {
+    "objectID": "worksheets/worksheet.html",
+    "href": "worksheets/worksheet.html",
+    "title": "Example worksheet",
+    "section": "",
+    "text": "First we need to load the required R packages. Please wait a moment until the live R session is fully set up and all packages are loaded.\n\n\n\n\n\n\n\n\nNext we take a look at the data. We’ll be working with the penguins dataset from the palmerpenguins package.\n\n\n\n\n\n\n\n\nNow make a scatter plot of bill length versus body mass, coloring the points by penguin species.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint 1\n\n\n\n\n\nThe dataset is provided as the argument to the ggplot() function.\nggplot(penguins) +\n  aes(___) +\n  ___()\n\n\n\n\n\n\n\n\n\n\n\nHint 2\n\n\n\n\n\nThe variable body_mass_g goes on the x axis, the variable bill_length_mm goes on the y axis, and species is used to assign color.\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  ___()\n\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe complete code to make the requested scatter plot. Use na.rm = TRUE to avoid warnings about missing data values.\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  geom_point(na.rm = TRUE)"
+  },
+  {
+    "objectID": "worksheets/worksheet.html#example-worksheet",
+    "href": "worksheets/worksheet.html#example-worksheet",
+    "title": "Example worksheet",
+    "section": "",
+    "text": "First we need to load the required R packages. Please wait a moment until the live R session is fully set up and all packages are loaded.\n\n\n\n\n\n\n\n\nNext we take a look at the data. We’ll be working with the penguins dataset from the palmerpenguins package."
+  },
+  {
+    "objectID": "index.html#installation-and-setup",
+    "href": "index.html#installation-and-setup",
+    "title": "Teaching data visualization with R entirely in Quarto",
+    "section": "Installation and setup",
+    "text": "Installation and setup\nTo enable live R exercises, install the quarto-live extension:\nquarto add r-wasm/quarto-live\n(The github repo already comes with this installation pre-packaged.)\nFor documentation on this extension, see here: https://r-wasm.github.io/quarto-live/"
   }
 ]

@@ -5,3 +5,16 @@ format: html
 ---
 
 This page contains materials for Claus O. Wilke's talk at Posit::conf(2025). You can see the sources here: <https://github.com/clauswilke/PositConf2025>
+
+## Installation and setup
+
+To enable live R exercises, install the quarto-live extension:
+
+```sh
+quarto add r-wasm/quarto-live
+```
+
+(The github repo already comes with this installation pre-packaged.)
+
+For documentation on this extension, see here: https://r-wasm.github.io/quarto-live/
+

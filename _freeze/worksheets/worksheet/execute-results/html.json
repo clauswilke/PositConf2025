@@ -1,0 +1,17 @@
+{
+  "hash": "7f61ad13651577e26d6ef04219c94b72",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Example worksheet\"\nauthor: \"Claus O. Wilke\"\nformat: live-html\nengine: knitr\nwebr:\n  render-df: gt-interactive\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n\nFirst we need to load the required R packages. Please wait a moment until the live R session is fully set up and all packages are loaded.\n\n\n\n\n::: {.cell edit='false'}\n```{webr}\n#| warning: false\n#| edit: false\nlibrary(ggplot2)\nlibrary(palmerpenguins)\n```\n:::\n\n\n\n\nNext we take a look at the data. We'll be working with the `penguins` dataset from the **palmerpenguins** package.\n\n\n\n\n::: {.cell edit='false'}\n```{webr}\n#| edit: false\npenguins\n```\n:::\n\n\n\n\nNow make a scatter plot of bill length versus body mass, coloring the points by penguin species.\n\n\n\n\n::: {.cell exercise='ggplot-example'}\n```{webr}\n#| exercise: ggplot-example\nggplot(___) +\n  aes(___) +\n  ___()\n```\n:::\n\n\n\n\n::: { .hint exercise=\"ggplot-example\" }\n::: { .callout-tip title=\"Hint 1\" collapse=\"false\"}\nThe dataset is provided as the argument to the `ggplot()` function.\n```r\nggplot(penguins) +\n  aes(___) +\n  ___()\n```\n:::\n:::\n\n::: { .hint exercise=\"ggplot-example\" }\n::: { .callout-tip title=\"Hint 2\" collapse=\"false\"}\nThe variable `body_mass_g` goes on the x axis, the variable `bill_length_mm` goes on the y axis, and `species` is used to assign color.\n```r\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  ___()\n```\n:::\n:::\n\n::: { .solution exercise=\"ggplot-example\" }\n::: { .callout-tip title=\"Solution\" collapse=\"false\"}\nThe complete code to make the requested scatter plot. Use `na.rm = TRUE` to avoid warnings about missing data values.\n```r\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  geom_point(na.rm = TRUE)\n```\n:::\n:::\n\n",
+    "supporting": [
+      "worksheet_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

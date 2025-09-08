@@ -21,7 +21,8 @@ website:
         
       - text: Worksheets
         menu:
-          - text: "Coming soon..."
+          - text: "Example worksheet"
+            href: worksheets/worksheet.qmd
           
       - text: Shiny apps
         menu:

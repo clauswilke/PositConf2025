@@ -1,0 +1,69 @@
+---
+title: "Example worksheet"
+author: "Claus O. Wilke"
+format: live-html
+engine: knitr
+webr:
+  render-df: gt-interactive
+---
+
+{{< include ../_extensions/r-wasm/live/_knitr.qmd >}}
+
+First we need to load the required R packages. Please wait a moment until the live R session is fully set up and all packages are loaded.
+
+```{webr}
+#| warning: false
+#| edit: false
+library(ggplot2)
+library(palmerpenguins)
+```
+
+Next we take a look at the data. We'll be working with the `penguins` dataset from the **palmerpenguins** package.
+
+```{webr}
+#| edit: false
+penguins
+```
+
+Now make a scatter plot of bill length versus body mass, coloring the points by penguin species.
+
+```{webr} 
+#| exercise: ggplot-example
+ggplot(___) +
+  aes(___) +
+  ___()
+```
+
+::: { .hint exercise="ggplot-example" }
+::: { .callout-tip title="Hint 1" collapse="false"}
+The dataset is provided as the argument to the `ggplot()` function.
+```r
+ggplot(penguins) +
+  aes(___) +
+  ___()
+```
+:::
+:::
+
+::: { .hint exercise="ggplot-example" }
+::: { .callout-tip title="Hint 2" collapse="false"}
+The variable `body_mass_g` goes on the x axis, the variable `bill_length_mm` goes on the y axis, and `species` is used to assign color.
+```r
+ggplot(penguins) +
+  aes(body_mass_g, bill_length_mm, color = species) +
+  ___()
+```
+:::
+:::
+
+::: { .solution exercise="ggplot-example" }
+::: { .callout-tip title="Solution" collapse="false"}
+The complete code to make the requested scatter plot. Use `na.rm = TRUE` to avoid warnings about missing data values.
+```r
+ggplot(penguins) +
+  aes(body_mass_g, bill_length_mm, color = species) +
+  geom_point(na.rm = TRUE)
+```
+:::
+:::
+
