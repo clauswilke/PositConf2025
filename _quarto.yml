@@ -3,8 +3,10 @@ project:
   render:
     - "*.qmd"
     - "!assets/"
+    - "!apps/"
   resources:
     - "assets/"
+    - "apps/bin/"
 
 website:
   title: "Teaching with Quarto"
@@ -26,7 +28,8 @@ website:
           
       - text: Shiny apps
         menu:
-          - text: "Coming soon..."
+          - text: "Shiny app example"
+            href: apps/bin/shiny-example
         
     tools:
       - icon: github

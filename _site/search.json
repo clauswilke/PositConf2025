@@ -1,157 +1,10 @@
 [
   {
-    "objectID": "slides/talk.html#data-visualization-is-integral-to-data-science",
-    "href": "slides/talk.html#data-visualization-is-integral-to-data-science",
-    "title": "Introduction",
-    "section": "Data visualization is integral to data science",
-    "text": "Data visualization is integral to data science"
-  },
-  {
-    "objectID": "slides/talk.html#data-visualization-is-integral-to-data-science-1",
-    "href": "slides/talk.html#data-visualization-is-integral-to-data-science-1",
-    "title": "Introduction",
-    "section": "Data visualization is integral to data science",
-    "text": "Data visualization is integral to data science"
-  },
-  {
-    "objectID": "slides/talk.html#we-will-use-r-throughout-this-class",
-    "href": "slides/talk.html#we-will-use-r-throughout-this-class",
-    "title": "Introduction",
-    "section": "We will use R throughout this class",
-    "text": "We will use R throughout this class"
-  },
-  {
-    "objectID": "slides/talk.html#what-about-python",
-    "href": "slides/talk.html#what-about-python",
-    "title": "Introduction",
-    "section": "What about Python?",
-    "text": "What about Python?\n\n\nCan we use Python for assignments in this class?\nNo, all assignments require R\nWill what we learn here apply to Python?\nYes, all concepts carry over; also, look into plotnine\n\n\n\n\n\nhttps://plotnine.org/"
-  },
-  {
-    "objectID": "slides/talk.html#who-am-i",
-    "href": "slides/talk.html#who-am-i",
-    "title": "Introduction",
-    "section": "Who am I?",
-    "text": "Who am I?"
-  },
-  {
-    "objectID": "slides/talk.html#who-am-i-1",
-    "href": "slides/talk.html#who-am-i-1",
-    "title": "Introduction",
-    "section": "Who am I?",
-    "text": "Who am I?\n\n\nhttps://clauswilke.com/dataviz"
-  },
-  {
-    "objectID": "slides/talk.html#who-am-i-2",
-    "href": "slides/talk.html#who-am-i-2",
-    "title": "Introduction",
-    "section": "Who am I?",
-    "text": "Who am I?"
-  },
-  {
-    "objectID": "slides/talk.html#slides-and-worksheets-are-posted-on-the-class-website",
-    "href": "slides/talk.html#slides-and-worksheets-are-posted-on-the-class-website",
-    "title": "Introduction",
-    "section": "Slides and worksheets are posted on the class website",
-    "text": "Slides and worksheets are posted on the class website\n\n\n\n\nhttps://wilkelab.org/DSC385"
-  },
-  {
-    "objectID": "slides/talk.html#the-source-for-the-class-website-is-on-github",
-    "href": "slides/talk.html#the-source-for-the-class-website-is-on-github",
-    "title": "Introduction",
-    "section": "The source for the class website is on GitHub",
-    "text": "The source for the class website is on GitHub\n\n\n\n\nhttps://github.com/wilkelab/DSC385"
-  },
-  {
-    "objectID": "slides/talk.html#the-source-for-the-class-website-is-on-github-1",
-    "href": "slides/talk.html#the-source-for-the-class-website-is-on-github-1",
-    "title": "Introduction",
-    "section": "The source for the class website is on GitHub",
-    "text": "The source for the class website is on GitHub\n\n\n\n\nhttps://github.com/wilkelab/DSC385"
-  },
-  {
-    "objectID": "slides/talk.html#press-e-to-save-slides-as-pdf",
-    "href": "slides/talk.html#press-e-to-save-slides-as-pdf",
-    "title": "Introduction",
-    "section": "Press ‘e’ to save slides as PDF",
-    "text": "Press ‘e’ to save slides as PDF\n\n\n\n(Works best on Chrome)"
-  },
-  {
-    "objectID": "slides/talk.html#setting-up-a-working-r-environment",
-    "href": "slides/talk.html#setting-up-a-working-r-environment",
-    "title": "Introduction",
-    "section": "Setting up a working R environment",
-    "text": "Setting up a working R environment\n\nTo run R on your own computer:"
-  },
-  {
-    "objectID": "slides/talk.html#setting-up-a-working-r-environment-1",
-    "href": "slides/talk.html#setting-up-a-working-r-environment-1",
-    "title": "Introduction",
-    "section": "Setting up a working R environment",
-    "text": "Setting up a working R environment\nTo run R on your own computer:\n\nDownload R from here: https://cloud.r-project.org/"
-  },
-  {
-    "objectID": "slides/talk.html#setting-up-a-working-r-environment-2",
-    "href": "slides/talk.html#setting-up-a-working-r-environment-2",
-    "title": "Introduction",
-    "section": "Setting up a working R environment",
-    "text": "Setting up a working R environment\nTo run R on your own computer:\n\nDownload R from here: https://cloud.r-project.org/\nDownload either RStudio or Positron\nRStudio: https://posit.co/download/rstudio-desktop/\nPositron: https://positron.posit.co/"
-  },
-  {
-    "objectID": "slides/talk.html#setting-up-a-working-r-environment-3",
-    "href": "slides/talk.html#setting-up-a-working-r-environment-3",
-    "title": "Introduction",
-    "section": "Setting up a working R environment",
-    "text": "Setting up a working R environment\nTo run R in a web browser:"
-  },
-  {
-    "objectID": "slides/talk.html#setting-up-a-working-r-environment-4",
-    "href": "slides/talk.html#setting-up-a-working-r-environment-4",
-    "title": "Introduction",
-    "section": "Setting up a working R environment",
-    "text": "Setting up a working R environment\nTo run R in a web browser:\nGo to the Posit Cloud here: https://posit.cloud/\n(You get 25 hours/month for free; see here for pricing)"
-  },
-  {
-    "objectID": "slides/talk.html#setting-up-a-working-r-environment-5",
-    "href": "slides/talk.html#setting-up-a-working-r-environment-5",
-    "title": "Introduction",
-    "section": "Setting up a working R environment",
-    "text": "Setting up a working R environment\nOnce R is running, you need to install required R packages"
-  },
-  {
-    "objectID": "slides/talk.html#setting-up-a-working-r-environment-6",
-    "href": "slides/talk.html#setting-up-a-working-r-environment-6",
-    "title": "Introduction",
-    "section": "Setting up a working R environment",
-    "text": "Setting up a working R environment\nOnce R is running, you need to install required R packages\nInstallation instructions are on the class website"
-  },
-  {
-    "objectID": "slides/talk.html#setting-up-a-working-r-environment-7",
-    "href": "slides/talk.html#setting-up-a-working-r-environment-7",
-    "title": "Introduction",
-    "section": "Setting up a working R environment",
-    "text": "Setting up a working R environment\nOnce R is running, you need to install required R packages\nInstallation instructions are on the class website\nAll packages listed on the class website are fair game in assignments"
-  },
-  {
-    "objectID": "slides/talk.html#we-will-use-quarto-for-all-assignments",
-    "href": "slides/talk.html#we-will-use-quarto-for-all-assignments",
-    "title": "Introduction",
-    "section": "We will use Quarto for all assignments",
-    "text": "We will use Quarto for all assignments\n\n\n\n\nhttps://quarto.org/"
-  },
-  {
-    "objectID": "slides/talk.html#how-to-succeed-in-this-class-1",
-    "href": "slides/talk.html#how-to-succeed-in-this-class-1",
-    "title": "Introduction",
-    "section": "How to succeed in this class",
-    "text": "How to succeed in this class\n\n\nThe class is about communication, not programming\nDo all the exercises, even the low-stakes ones\nParticipate in the discussion forums, answer questions\nDon’t rely on ChatGPT or other generative AI\nIf anything goes wrong, send an email to the class email address\nPay attention to deadlines and time zones"
-  },
-  {
-    "objectID": "slides/talk.html#further-reading",
-    "href": "slides/talk.html#further-reading",
-    "title": "Introduction",
-    "section": "Further reading",
-    "text": "Further reading\n\nFundamentals of Data Visualization: Read the book online\nQuarto docs: Comprehensive guide"
+    "objectID": "worksheets/worksheet.html",
+    "href": "worksheets/worksheet.html",
+    "title": "Example worksheet",
+    "section": "",
+    "text": "First we need to load the required R packages. Please wait a moment until the live R session is fully set up and all packages are loaded.\n\n\n\n\n\n\n\n\nNext we take a look at the data. We’ll be working with the penguins dataset from the palmerpenguins package.\n\n\n\n\n\n\n\n\nNow make a scatter plot of bill length versus body mass, coloring the points by penguin species.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint 1\n\n\n\n\n\nThe dataset is provided as the argument to the ggplot() function.\nggplot(penguins) +\n  aes(___) +\n  ___()\n\n\n\n\n\n\n\n\n\n\n\nHint 2\n\n\n\n\n\nThe variable body_mass_g goes on the x axis, the variable bill_length_mm goes on the y axis, and species is used to assign color.\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  ___()\n\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe complete code to make the requested scatter plot. Use na.rm = TRUE to avoid warnings about missing data values.\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  geom_point(na.rm = TRUE)"
   },
   {
     "objectID": "index.html",
@@ -161,67 +14,11 @@
     "text": "This page contains materials for Claus O. Wilke’s talk at Posit::conf(2025). You can see the sources here: https://github.com/clauswilke/PositConf2025"
   },
   {
-    "objectID": "slides/talk.html#slide-title",
-    "href": "slides/talk.html#slide-title",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Slide title",
-    "text": "Slide title\n\n\n\n\n\n\n\n\nhttps://wilkelab.org/SDS366"
-  },
-  {
-    "objectID": "slides/talk.html#requirements-for-an-r-based-data-science-class",
-    "href": "slides/talk.html#requirements-for-an-r-based-data-science-class",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Requirements for an R-based data science class",
-    "text": "Requirements for an R-based data science class\n\n\nWebsite\nSlides with code and output\nInteractive exercises\nStudent assignments\nDemo/support apps"
-  },
-  {
-    "objectID": "slides/talk.html#challenges-interactive-exercises",
-    "href": "slides/talk.html#challenges-interactive-exercises",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Challenges: Interactive exercises",
-    "text": "Challenges: Interactive exercises\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally (confusing and ugly)"
-  },
-  {
-    "objectID": "slides/talk.html#challenges-student-assignments",
-    "href": "slides/talk.html#challenges-student-assignments",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Challenges: Student assignments",
-    "text": "Challenges: Student assignments\n\n\nIn general, pdf is the best format for submissions\nConverting markdown into pdf is complicated"
-  },
-  {
-    "objectID": "slides/talk.html#challenges-demosupport-apps",
-    "href": "slides/talk.html#challenges-demosupport-apps",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Challenges: Demo/support apps",
-    "text": "Challenges: Demo/support apps\n\n\nSame problems as learnr documents, we need a webserver or run locally"
-  },
-  {
-    "objectID": "slides/talk.html#quarto-with-webr-and-typst-can-do-everything-we-need",
-    "href": "slides/talk.html#quarto-with-webr-and-typst-can-do-everything-we-need",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Quarto with webr and typst can do everything we need",
-    "text": "Quarto with webr and typst can do everything we need"
-  },
-  {
-    "objectID": "slides/talk.html#i-first-saw-all-the-puzzle-pieces-coming-together-at-positconf2024",
-    "href": "slides/talk.html#i-first-saw-all-the-puzzle-pieces-coming-together-at-positconf2024",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "I first saw all the puzzle pieces coming together at Posit::Conf(2024)",
-    "text": "I first saw all the puzzle pieces coming together at Posit::Conf(2024)"
-  },
-  {
-    "objectID": "slides/talk.html#what-is-the-benefit",
-    "href": "slides/talk.html#what-is-the-benefit",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "What is the benefit",
-    "text": "What is the benefit\n\nA single framework\nlive exercises are so much easier\nstudents have carry-over"
-  },
-  {
-    "objectID": "slides/talk.html#hook",
-    "href": "slides/talk.html#hook",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Hook",
-    "text": "Hook\n\n\n\n\n\n\nPhoto by Resume Genius on Unsplash. https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVDnarks\nOther images, not used: https://unsplash.com/photos/a-person-sitting-at-a-desk-with-a-laptop-and-a-cell-phone-QFe8yjZcirg https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-dJpBpPUevSA https://unsplash.com/photos/a-woman-covering-her-face-while-looking-at-a-laptop-yusHnkBhF3Q"
+    "objectID": "index.html#installation-and-setup",
+    "href": "index.html#installation-and-setup",
+    "title": "Teaching data visualization with R entirely in Quarto",
+    "section": "Installation and setup",
+    "text": "Installation and setup\nTo enable live R exercises, install the quarto-live extension:\nquarto add r-wasm/quarto-live\n(The github repo already comes with this installation pre-packaged.)\nFor documentation on this extension, see here: https://r-wasm.github.io/quarto-live/"
   },
   {
     "objectID": "slides/talk.html#no-matter-how-much-you-prepare-things-will-go-wrong",
@@ -245,81 +42,25 @@
     "text": "Components of an R-based data science class\n\n\nSlides with code and outputxaringan / beamer / …\nWebsitedistill / blogdown / …\nInteractive exerciseslearnr\nStudent assignmentsRMarkdown templates\nDemo/support appsshiny apps\n\n\n\nMany of these technologies pose challenges"
   },
   {
-    "objectID": "slides/talk.html#positconf2024",
-    "href": "slides/talk.html#positconf2024",
+    "objectID": "slides/talk.html#challenges-interactive-exercises",
+    "href": "slides/talk.html#challenges-interactive-exercises",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Posit::Conf(2024)",
-    "text": "Posit::Conf(2024)\n\n\n\n\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+    "section": "Challenges: Interactive exercises",
+    "text": "Challenges: Interactive exercises\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally (confusing and ugly)"
   },
   {
-    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024",
-    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024",
+    "objectID": "slides/talk.html#challenges-student-assignments",
+    "href": "slides/talk.html#challenges-student-assignments",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "All the pieces came together at Posit::conf(2024)",
-    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+    "section": "Challenges: Student assignments",
+    "text": "Challenges: Student assignments\n\n\nIn general, pdf is the best format for submissions\nConverting markdown into pdf is complicated"
   },
   {
-    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-1",
-    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-1",
+    "objectID": "slides/talk.html#challenges-demosupport-apps",
+    "href": "slides/talk.html#challenges-demosupport-apps",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "All the pieces came together at Posit::conf(2024)",
-    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
-  },
-  {
-    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-2",
-    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-2",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "All the pieces came together at Posit::conf(2024)",
-    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
-  },
-  {
-    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-3",
-    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-3",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "All the pieces came together at Posit::conf(2024)",
-    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
-  },
-  {
-    "objectID": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-4",
-    "href": "slides/talk.html#all-the-pieces-came-together-at-positconf2024-4",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "All the pieces came together at Posit::conf(2024)",
-    "text": "All the pieces came together at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
-  },
-  {
-    "objectID": "slides/talk.html#components-of-an-r-based-data-science-class-2",
-    "href": "slides/talk.html#components-of-an-r-based-data-science-class-2",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Components of an R-based data science class",
-    "text": "Components of an R-based data science class\n\n\nSlides with code and output \nWebsite \nInteractive exercises \nStudent assignments \nDemo/support apps"
-  },
-  {
-    "objectID": "slides/talk.html#the-lightbulb-went-off-at-positconf2024",
-    "href": "slides/talk.html#the-lightbulb-went-off-at-positconf2024",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "The lightbulb went off at Posit::conf(2024)",
-    "text": "The lightbulb went off at Posit::conf(2024)\n\n\n\n\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
-  },
-  {
-    "objectID": "slides/talk.html#components-of-an-r-based-data-science-class-3",
-    "href": "slides/talk.html#components-of-an-r-based-data-science-class-3",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Components of an R-based data science class",
-    "text": "Components of an R-based data science class\n\n\nSlides with code and outputQuarto + revealjs\nWebsiteQuarto + website\nInteractive exercisesQuarto Live\nStudent assignmentsQuarto + typst\nDemo/support appsQuarto + Shiny Live\n\n\n\nQuarto provides a single, unified framework for both instructor and students"
-  },
-  {
-    "objectID": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025",
-    "href": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "I completely reworked my class for spring 2025",
-    "text": "I completely reworked my class for spring 2025\n\n\n\n\n\n\n\n\nhttps://wilkelab.org/SDS366"
-  },
-  {
-    "objectID": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025-1",
-    "href": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025-1",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "I completely reworked my class for spring 2025",
-    "text": "I completely reworked my class for spring 2025\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+    "section": "Challenges: Demo/support apps",
+    "text": "Challenges: Demo/support apps\n\n\nSame problems as learnr documents, we need a webserver or run locally"
   },
   {
     "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024",
@@ -364,32 +105,25 @@
     "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
   },
   {
-    "objectID": "slides/talk.html#a-simple-template-you-can-use-as-your-starting-point",
-    "href": "slides/talk.html#a-simple-template-you-can-use-as-your-starting-point",
+    "objectID": "slides/talk.html#components-of-an-r-based-data-science-class-2",
+    "href": "slides/talk.html#components-of-an-r-based-data-science-class-2",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "A simple template you can use as your starting point",
-    "text": "A simple template you can use as your starting point\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+    "section": "Components of an R-based data science class",
+    "text": "Components of an R-based data science class\n\n\nSlides with code and output \nWebsite \nInteractive exercises \nStudent assignments \nDemo/support apps"
   },
   {
-    "objectID": "slides/talk.html#i-have-created-a-template-to-get-started",
-    "href": "slides/talk.html#i-have-created-a-template-to-get-started",
+    "objectID": "slides/talk.html#components-of-an-r-based-data-science-class-3",
+    "href": "slides/talk.html#components-of-an-r-based-data-science-class-3",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "I have created a template to get started",
-    "text": "I have created a template to get started\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+    "section": "Components of an R-based data science class",
+    "text": "Components of an R-based data science class\n\n\nSlides with code and outputQuarto + revealjs\nWebsiteQuarto + website\nInteractive exercisesQuarto Live\nStudent assignmentsQuarto + typst\nDemo/support appsQuarto + Shiny Live\n\n\n\nQuarto provides a single, unified framework for both instructor and students"
   },
   {
-    "objectID": "slides/talk.html#should-you-use-this",
-    "href": "slides/talk.html#should-you-use-this",
+    "objectID": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025",
+    "href": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Should you use this?",
-    "text": "Should you use this?\n\n\n\n\n\n\nPhoto by Juan Rumimpunu on Unsplash.\nhttps://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo"
-  },
-  {
-    "objectID": "slides/talk.html#i-have-created-a-simple-template-to-get-started",
-    "href": "slides/talk.html#i-have-created-a-simple-template-to-get-started",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "I have created a simple template to get started",
-    "text": "I have created a simple template to get started\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+    "section": "I completely reworked my class for spring 2025",
+    "text": "I completely reworked my class for spring 2025\n\n\n\n\n\n\n\n\nhttps://wilkelab.org/SDS366"
   },
   {
     "objectID": "slides/talk.html#a-simple-template-to-get-you-started",
@@ -399,38 +133,10 @@
     "text": "A simple template to get you started\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
   },
   {
-    "objectID": "slides/talk.html#is-this-the-right-approach-for-you",
-    "href": "slides/talk.html#is-this-the-right-approach-for-you",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Is this the right approach for you?",
-    "text": "Is this the right approach for you?\n\n\n\n\n\n\nPhoto by Juan Rumimpunu on Unsplash.\nhttps://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo"
-  },
-  {
     "objectID": "slides/talk.html#is-this-approach-right-for-you",
     "href": "slides/talk.html#is-this-approach-right-for-you",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Is this approach right for you?",
     "text": "Is this approach right for you?\n\n\n\n\n\n\nPhoto by Juan Rumimpunu on Unsplash.\nhttps://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo"
-  },
-  {
-    "objectID": "worksheets/worksheet.html",
-    "href": "worksheets/worksheet.html",
-    "title": "Example worksheet",
-    "section": "",
-    "text": "First we need to load the required R packages. Please wait a moment until the live R session is fully set up and all packages are loaded.\n\n\n\n\n\n\n\n\nNext we take a look at the data. We’ll be working with the penguins dataset from the palmerpenguins package.\n\n\n\n\n\n\n\n\nNow make a scatter plot of bill length versus body mass, coloring the points by penguin species.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint 1\n\n\n\n\n\nThe dataset is provided as the argument to the ggplot() function.\nggplot(penguins) +\n  aes(___) +\n  ___()\n\n\n\n\n\n\n\n\n\n\n\nHint 2\n\n\n\n\n\nThe variable body_mass_g goes on the x axis, the variable bill_length_mm goes on the y axis, and species is used to assign color.\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  ___()\n\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe complete code to make the requested scatter plot. Use na.rm = TRUE to avoid warnings about missing data values.\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  geom_point(na.rm = TRUE)"
-  },
-  {
-    "objectID": "worksheets/worksheet.html#example-worksheet",
-    "href": "worksheets/worksheet.html#example-worksheet",
-    "title": "Example worksheet",
-    "section": "",
-    "text": "First we need to load the required R packages. Please wait a moment until the live R session is fully set up and all packages are loaded.\n\n\n\n\n\n\n\n\nNext we take a look at the data. We’ll be working with the penguins dataset from the palmerpenguins package."
-  },
-  {
-    "objectID": "index.html#installation-and-setup",
-    "href": "index.html#installation-and-setup",
-    "title": "Teaching data visualization with R entirely in Quarto",
-    "section": "Installation and setup",
-    "text": "Installation and setup\nTo enable live R exercises, install the quarto-live extension:\nquarto add r-wasm/quarto-live\n(The github repo already comes with this installation pre-packaged.)\nFor documentation on this extension, see here: https://r-wasm.github.io/quarto-live/"
   }
 ]
