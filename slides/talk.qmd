@@ -57,25 +57,20 @@ Many of these technologies pose challenges
 :::
 
 
-## Challenges: Interactive exercises
+## Example of the types of challenges we may encounter
+
+::: {.fragment .small-font}
+We can use **learnr** for interactive exercises
+:::
+
+:::{.fragment .small-font}
+But:
+:::
 
 :::{.incremental .small-font}
-- The learnr package requires a running webserver
+- The **learnr** package requires a running webserver
 - Alternatively, students can run learnr documents locally<br>
   (confusing and ugly)
-:::
-
-## Challenges: Student assignments
-
-:::{.incremental .small-font}
-- In general, pdf is the best format for submissions
-- Converting markdown into pdf is complicated
-:::
-
-## Challenges: Demo/support apps
-
-:::{.incremental .small-font}
-- Same problems as learnr documents, we need a webserver or run locally
 :::
 
 ## All the pieces fell into place at Posit::conf(2024)
@@ -83,30 +78,6 @@ Many of these technologies pose challenges
 ## All the pieces fell into place at Posit::conf(2024)
 
 ![](../assets/positconf-video-thumbnail.jpg){width="90%" fig-align="center"}
-
-::: {.absolute-bottom-right .tiny-font}
-<https://www.youtube.com/watch?v=s_Vh9HIeLVg>
-:::
-
-## All the pieces fell into place at Posit::conf(2024)
-
-![](../assets/positconf-video-typst1.png){width="90%" fig-align="center"}
-
-::: {.absolute-bottom-left .small-font}
-Charlotte Wickham introduces typst
-:::
-
-::: {.absolute-bottom-right .tiny-font}
-<https://www.youtube.com/watch?v=s_Vh9HIeLVg>
-:::
-
-## All the pieces fell into place at Posit::conf(2024)
-
-![](../assets/positconf-video-typst2.png){width="90%" fig-align="center"}
-
-::: {.absolute-bottom-left .small-font}
-Charlotte Wickham introduces typst
-:::
 
 ::: {.absolute-bottom-right .tiny-font}
 <https://www.youtube.com/watch?v=s_Vh9HIeLVg>
@@ -130,6 +101,30 @@ George Stagg introduces webR and Quarto Live
 
 ::: {.absolute-bottom-left .small-font}
 George Stagg introduces webR and Quarto Live
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<https://www.youtube.com/watch?v=s_Vh9HIeLVg>
+:::
+
+## All the pieces fell into place at Posit::conf(2024)
+
+![](../assets/positconf-video-typst1.png){width="90%" fig-align="center"}
+
+::: {.absolute-bottom-left .small-font}
+Charlotte Wickham introduces typst
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<https://www.youtube.com/watch?v=s_Vh9HIeLVg>
+:::
+
+## All the pieces fell into place at Posit::conf(2024)
+
+![](../assets/positconf-video-typst2.png){width="90%" fig-align="center"}
+
+::: {.absolute-bottom-left .small-font}
+Charlotte Wickham introduces typst
 :::
 
 ::: {.absolute-bottom-right .tiny-font}

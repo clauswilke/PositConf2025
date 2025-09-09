@@ -4,7 +4,14 @@
     "href": "worksheets/worksheet.html",
     "title": "Example worksheet",
     "section": "",
-    "text": "First we need to load the required R packages. Please wait a moment until the live R session is fully set up and all packages are loaded.\n\n\n\n\n\n\n\n\nNext we take a look at the data. We’ll be working with the penguins dataset from the palmerpenguins package.\n\n\n\n\n\n\n\n\nNow make a scatter plot of bill length versus body mass, coloring the points by penguin species.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHint 1\n\n\n\n\n\nThe dataset is provided as the argument to the ggplot() function.\nggplot(penguins) +\n  aes(___) +\n  ___()\n\n\n\n\n\n\n\n\n\n\n\nHint 2\n\n\n\n\n\nThe variable body_mass_g goes on the x axis, the variable bill_length_mm goes on the y axis, and species is used to assign color.\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  ___()\n\n\n\n\n\n\n\n\n\n\n\nSolution\n\n\n\n\n\nThe complete code to make the requested scatter plot. Use na.rm = TRUE to avoid warnings about missing data values.\nggplot(penguins) +\n  aes(body_mass_g, bill_length_mm, color = species) +\n  geom_point(na.rm = TRUE)"
+    "text": "First we need to load the required R packages. Please wait a moment until the live R session is fully set up and all packages are loaded.\nNext we take a look at the data. We’ll be working with the penguins dataset from the palmerpenguins package.\nNow make a scatter plot of bill length versus body mass, coloring the points by penguin species."
+  },
+  {
+    "objectID": "worksheets/worksheet.html#installation-and-setup",
+    "href": "worksheets/worksheet.html#installation-and-setup",
+    "title": "Example worksheet",
+    "section": "Installation and setup",
+    "text": "Installation and setup\nTo enable live R exercises in your own Quarto documents, install the quarto-live extension:\nquarto add r-wasm/quarto-live\nFor documentation on this extension, see here: https://r-wasm.github.io/quarto-live/\nYou can also check out the source of this interactive worksheet here: https://github.com/clauswilke/PositConf2025/blob/main/worksheets/worksheet.qmd"
   },
   {
     "objectID": "index.html",
@@ -12,13 +19,6 @@
     "title": "Teaching data visualization with R entirely in Quarto",
     "section": "",
     "text": "This page contains materials for Claus O. Wilke’s talk at Posit::conf(2025). You can see the sources here: https://github.com/clauswilke/PositConf2025"
-  },
-  {
-    "objectID": "index.html#installation-and-setup",
-    "href": "index.html#installation-and-setup",
-    "title": "Teaching data visualization with R entirely in Quarto",
-    "section": "Installation and setup",
-    "text": "Installation and setup\nTo enable live R exercises, install the quarto-live extension:\nquarto add r-wasm/quarto-live\n(The github repo already comes with this installation pre-packaged.)\nFor documentation on this extension, see here: https://r-wasm.github.io/quarto-live/"
   },
   {
     "objectID": "slides/talk.html#no-matter-how-much-you-prepare-things-will-go-wrong",
@@ -42,25 +42,11 @@
     "text": "Components of an R-based data science class\n\n\nSlides with code and outputxaringan / beamer / …\nWebsitedistill / blogdown / …\nInteractive exerciseslearnr\nStudent assignmentsRMarkdown templates\nDemo/support appsshiny apps\n\n\n\nMany of these technologies pose challenges"
   },
   {
-    "objectID": "slides/talk.html#challenges-interactive-exercises",
-    "href": "slides/talk.html#challenges-interactive-exercises",
+    "objectID": "slides/talk.html#example-of-the-types-of-challenges-we-may-encounter",
+    "href": "slides/talk.html#example-of-the-types-of-challenges-we-may-encounter",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Challenges: Interactive exercises",
-    "text": "Challenges: Interactive exercises\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally (confusing and ugly)"
-  },
-  {
-    "objectID": "slides/talk.html#challenges-student-assignments",
-    "href": "slides/talk.html#challenges-student-assignments",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Challenges: Student assignments",
-    "text": "Challenges: Student assignments\n\n\nIn general, pdf is the best format for submissions\nConverting markdown into pdf is complicated"
-  },
-  {
-    "objectID": "slides/talk.html#challenges-demosupport-apps",
-    "href": "slides/talk.html#challenges-demosupport-apps",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Challenges: Demo/support apps",
-    "text": "Challenges: Demo/support apps\n\n\nSame problems as learnr documents, we need a webserver or run locally"
+    "section": "Example of the types of challenges we may encounter",
+    "text": "Example of the types of challenges we may encounter\n\nWe can use learnr for interactive exercises\n\n\nBut:\n\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally (confusing and ugly)"
   },
   {
     "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024",
@@ -81,28 +67,28 @@
     "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-2",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "All the pieces fell into place at Posit::conf(2024)",
-    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
   },
   {
     "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-3",
     "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-3",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "All the pieces fell into place at Posit::conf(2024)",
-    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
   },
   {
     "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-4",
     "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-4",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "All the pieces fell into place at Posit::conf(2024)",
-    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
   },
   {
     "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-5",
     "href": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024-5",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "All the pieces fell into place at Posit::conf(2024)",
-    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nGeorge Stagg introduces webR and Quarto Live\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
+    "text": "All the pieces fell into place at Posit::conf(2024)\n\n\n\n\n\n\nCharlotte Wickham introduces typst\n\n\nhttps://www.youtube.com/watch?v=s_Vh9HIeLVg"
   },
   {
     "objectID": "slides/talk.html#components-of-an-r-based-data-science-class-2",

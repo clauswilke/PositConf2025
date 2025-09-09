@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="Claus O. Wilke">
-  <meta name="dcterms.date" content="2025-08-28">
+  <meta name="dcterms.date" content="2025-09-08">
   <title>Teaching with Quarto – Teaching data visualization with R entirely in Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -138,7 +138,7 @@ Claus O. Wilke
 </div>
 </div>
 
-  <p class="date">2025-08-28</p>
+  <p class="date">2025-09-08</p>
 </section>
 <section id="no-matter-how-much-you-prepare-things-will-go-wrong" class="slide level2">
 <h2>No matter how much you prepare, things will go wrong</h2>
@@ -188,29 +188,18 @@ Claus O. Wilke
 <p>Many of these technologies pose challenges</p>
 </div>
 </section>
-<section id="challenges-interactive-exercises" class="slide level2">
-<h2>Challenges: Interactive exercises</h2>
+<section id="example-of-the-types-of-challenges-we-may-encounter" class="slide level2">
+<h2>Example of the types of challenges we may encounter</h2>
+<div class="fragment small-font">
+<p>We can use <strong>learnr</strong> for interactive exercises</p>
+</div>
+<div class="fragment small-font">
+<p>But:</p>
+</div>
 <div class="small-font">
 <ul>
-<li class="fragment">The learnr package requires a running webserver</li>
+<li class="fragment">The <strong>learnr</strong> package requires a running webserver</li>
 <li class="fragment">Alternatively, students can run learnr documents locally<br> (confusing and ugly)</li>
-</ul>
-</div>
-</section>
-<section id="challenges-student-assignments" class="slide level2">
-<h2>Challenges: Student assignments</h2>
-<div class="small-font">
-<ul>
-<li class="fragment">In general, pdf is the best format for submissions</li>
-<li class="fragment">Converting markdown into pdf is complicated</li>
-</ul>
-</div>
-</section>
-<section id="challenges-demosupport-apps" class="slide level2">
-<h2>Challenges: Demo/support apps</h2>
-<div class="small-font">
-<ul>
-<li class="fragment">Same problems as learnr documents, we need a webserver or run locally</li>
 </ul>
 </div>
 </section>
@@ -232,34 +221,6 @@ Claus O. Wilke
 <h2>All the pieces fell into place at Posit::conf(2024)</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="../assets/positconf-video-typst1.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-<div class="absolute-bottom-left small-font">
-<p>Charlotte Wickham introduces typst</p>
-</div>
-<div class="absolute-bottom-right tiny-font">
-<p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
-</div>
-</section>
-<section id="all-the-pieces-fell-into-place-at-positconf2024-3" class="slide level2">
-<h2>All the pieces fell into place at Posit::conf(2024)</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../assets/positconf-video-typst2.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-<div class="absolute-bottom-left small-font">
-<p>Charlotte Wickham introduces typst</p>
-</div>
-<div class="absolute-bottom-right tiny-font">
-<p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
-</div>
-</section>
-<section id="all-the-pieces-fell-into-place-at-positconf2024-4" class="slide level2">
-<h2>All the pieces fell into place at Posit::conf(2024)</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
 <p><img data-src="../assets/positconf-video-webr1.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
 </figure>
 </div>
@@ -270,7 +231,7 @@ Claus O. Wilke
 <p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
 </div>
 </section>
-<section id="all-the-pieces-fell-into-place-at-positconf2024-5" class="slide level2">
+<section id="all-the-pieces-fell-into-place-at-positconf2024-3" class="slide level2">
 <h2>All the pieces fell into place at Posit::conf(2024)</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -279,6 +240,34 @@ Claus O. Wilke
 </div>
 <div class="absolute-bottom-left small-font">
 <p>George Stagg introduces webR and Quarto Live</p>
+</div>
+<div class="absolute-bottom-right tiny-font">
+<p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
+</div>
+</section>
+<section id="all-the-pieces-fell-into-place-at-positconf2024-4" class="slide level2">
+<h2>All the pieces fell into place at Posit::conf(2024)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../assets/positconf-video-typst1.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+<div class="absolute-bottom-left small-font">
+<p>Charlotte Wickham introduces typst</p>
+</div>
+<div class="absolute-bottom-right tiny-font">
+<p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
+</div>
+</section>
+<section id="all-the-pieces-fell-into-place-at-positconf2024-5" class="slide level2">
+<h2>All the pieces fell into place at Posit::conf(2024)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../assets/positconf-video-typst2.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+<div class="absolute-bottom-left small-font">
+<p>Charlotte Wickham introduces typst</p>
 </div>
 <div class="absolute-bottom-right tiny-font">
 <p><a href="https://www.youtube.com/watch?v=s_Vh9HIeLVg" class="uri">https://www.youtube.com/watch?v=s_Vh9HIeLVg</a></p>
