@@ -53,7 +53,7 @@ https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVD
 :::
 
 ::: {.fragment .small-font}
-Hodgepodge of different technologies; many pose challenges
+Hodgepodge of different technologies; many can pose challenges
 :::
 
 
@@ -68,7 +68,8 @@ But:
 :::
 
 :::{.incremental .small-font}
-- The **learnr** package requires a running webserver
+- The **learnr** package requires a running webserver<br>
+  (substantial overhead and cost)
 - Alternatively, students can run learnr documents locally<br>
   (confusing and ugly)
 :::

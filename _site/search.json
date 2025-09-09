@@ -39,14 +39,14 @@
     "href": "slides/talk.html#components-of-an-r-based-data-science-class-1",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Components of an R-based data science class",
-    "text": "Components of an R-based data science class\n\n\nSlides with code and outputxaringan / beamer / …\nWebsitedistill / blogdown / …\nInteractive exerciseslearnr\nStudent assignmentsRMarkdown templates\nDemo/support appsshiny apps\n\n\n\nHodgepodge of different technologies; many pose challenges"
+    "text": "Components of an R-based data science class\n\n\nSlides with code and outputxaringan / beamer / …\nWebsitedistill / blogdown / …\nInteractive exerciseslearnr\nStudent assignmentsRMarkdown templates\nDemo/support appsshiny apps\n\n\n\nHodgepodge of different technologies; many can pose challenges"
   },
   {
     "objectID": "slides/talk.html#example-of-the-types-of-challenges-we-may-encounter",
     "href": "slides/talk.html#example-of-the-types-of-challenges-we-may-encounter",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Example of the types of challenges we may encounter",
-    "text": "Example of the types of challenges we may encounter\n\nWe can use learnr for interactive exercises\n\n\nBut:\n\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally (confusing and ugly)\n\n\n\nSimilar challenges arise throughout"
+    "text": "Example of the types of challenges we may encounter\n\nWe can use learnr for interactive exercises\n\n\nBut:\n\n\n\nThe learnr package requires a running webserver (substantial overhead and cost)\nAlternatively, students can run learnr documents locally (confusing and ugly)\n\n\n\nSimilar challenges arise throughout"
   },
   {
     "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024",
