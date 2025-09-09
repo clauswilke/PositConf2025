@@ -314,11 +314,19 @@ Solution
 </div>
 </div>
 </div>
+<p><br></p>
 <section id="installation-and-setup" class="level2">
 <h2 class="anchored" data-anchor-id="installation-and-setup">Installation and setup</h2>
 <p>To enable live R exercises in your own Quarto documents, install the quarto-live extension:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> add r-wasm/quarto-live</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>For documentation on this extension, see here: <a href="https://r-wasm.github.io/quarto-live/" class="uri">https://r-wasm.github.io/quarto-live/</a></p>
+<p>For any worksheet that you want to contain live exercises, you need to set the format to <code>live-html</code> in the YAML header. If you’re an R user, you probably also want to use the <code>knitr</code> engine instead of the <code>jupyter</code> engine, which you can select with the <code>engine</code> setting. To use the <code>knitr</code> engine, you also need to include a custom quarto file that comes with the Quarto-live extension.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> live-html</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">engine</span><span class="kw">:</span><span class="at"> knitr</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="kw">{</span><span class="at">{&lt; include ./_extensions/r-wasm/live/_knitr.qmd &gt;</span><span class="kw">}</span><span class="at">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>For more documentation on the quarto live extension, see here: <a href="https://r-wasm.github.io/quarto-live/" class="uri">https://r-wasm.github.io/quarto-live/</a></p>
 <p>You can also check out the source of this interactive worksheet here: <a href="https://github.com/clauswilke/PositConf2025/blob/main/worksheets/worksheet.qmd" class="uri">https://github.com/clauswilke/PositConf2025/blob/main/worksheets/worksheet.qmd</a></p>
 
 

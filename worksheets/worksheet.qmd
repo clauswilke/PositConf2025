@@ -67,6 +67,8 @@ ggplot(penguins) +
 :::
 :::
 
+<br>
+
 ## Installation and setup
 
 To enable live R exercises in your own Quarto documents, install the quarto-live extension:
@@ -75,6 +77,17 @@ To enable live R exercises in your own Quarto documents, install the quarto-live
 quarto add r-wasm/quarto-live
 ```
 
-For documentation on this extension, see here: <https://r-wasm.github.io/quarto-live/>
+For any worksheet that you want to contain live exercises, you need to set the format to `live-html` in the YAML header. If you're an R user, you probably also want to use the `knitr` engine instead of the `jupyter` engine, which you can select with the `engine` setting. To use the `knitr` engine, you also need to include a custom quarto file that comes with the Quarto-live extension.
+
+```yaml
+---
+format: live-html
+engine: knitr
+---
+
+{{{< include ./_extensions/r-wasm/live/_knitr.qmd >}}}
+```
+
+For more documentation on the quarto live extension, see here: <https://r-wasm.github.io/quarto-live/>
 
 You can also check out the source of this interactive worksheet here: <https://github.com/clauswilke/PositConf2025/blob/main/worksheets/worksheet.qmd>

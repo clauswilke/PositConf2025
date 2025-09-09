@@ -11,7 +11,7 @@
     "href": "worksheets/worksheet.html#installation-and-setup",
     "title": "Example worksheet",
     "section": "Installation and setup",
-    "text": "Installation and setup\nTo enable live R exercises in your own Quarto documents, install the quarto-live extension:\nquarto add r-wasm/quarto-live\nFor documentation on this extension, see here: https://r-wasm.github.io/quarto-live/\nYou can also check out the source of this interactive worksheet here: https://github.com/clauswilke/PositConf2025/blob/main/worksheets/worksheet.qmd"
+    "text": "Installation and setup\nTo enable live R exercises in your own Quarto documents, install the quarto-live extension:\nquarto add r-wasm/quarto-live\nFor any worksheet that you want to contain live exercises, you need to set the format to live-html in the YAML header. If you’re an R user, you probably also want to use the knitr engine instead of the jupyter engine, which you can select with the engine setting. To use the knitr engine, you also need to include a custom quarto file that comes with the Quarto-live extension.\n---\nformat: live-html\nengine: knitr\n---\n\n{{&lt; include ./_extensions/r-wasm/live/_knitr.qmd &gt;}}\nFor more documentation on the quarto live extension, see here: https://r-wasm.github.io/quarto-live/\nYou can also check out the source of this interactive worksheet here: https://github.com/clauswilke/PositConf2025/blob/main/worksheets/worksheet.qmd"
   },
   {
     "objectID": "index.html",
