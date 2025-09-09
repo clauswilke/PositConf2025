@@ -53,7 +53,7 @@ https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-f2JMVD
 :::
 
 ::: {.fragment .small-font}
-Many of these technologies pose challenges
+Hodgepodge of different technologies; many pose challenges
 :::
 
 
@@ -72,6 +72,12 @@ But:
 - Alternatively, students can run learnr documents locally<br>
   (confusing and ugly)
 :::
+
+:::{.fragment .small-font}
+Similar challenges arise throughout
+:::
+
+# How can we streamline and simplify all of this?
 
 ## All the pieces fell into place at Posit::conf(2024)
 
@@ -181,6 +187,20 @@ Quarto provides a single, unified framework for both instructor and students
 
 ::: {.absolute-bottom-right .tiny-font}
 <a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
+:::
+
+## Video recordings (work in progress)
+
+<video controls autoplay loop data-src="../assets/slides.mp4" width="100%"></video>
+
+## However, it's not all roses
+
+![](../assets/jonathan-meyer-yZJPiMC1-_k-unsplash.jpg){width="80%" fig-align="center"}
+
+::: {.notes}
+Photo by Jonathan Meyer on Unsplash.
+
+https://unsplash.com/photos/pink-flowers-with-green-leaves-yZJPiMC1-_k
 :::
 
 ## Is this approach right for you?

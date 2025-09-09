@@ -39,14 +39,14 @@
     "href": "slides/talk.html#components-of-an-r-based-data-science-class-1",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Components of an R-based data science class",
-    "text": "Components of an R-based data science class\n\n\nSlides with code and outputxaringan / beamer / …\nWebsitedistill / blogdown / …\nInteractive exerciseslearnr\nStudent assignmentsRMarkdown templates\nDemo/support appsshiny apps\n\n\n\nMany of these technologies pose challenges"
+    "text": "Components of an R-based data science class\n\n\nSlides with code and outputxaringan / beamer / …\nWebsitedistill / blogdown / …\nInteractive exerciseslearnr\nStudent assignmentsRMarkdown templates\nDemo/support appsshiny apps\n\n\n\nHodgepodge of different technologies; many pose challenges"
   },
   {
     "objectID": "slides/talk.html#example-of-the-types-of-challenges-we-may-encounter",
     "href": "slides/talk.html#example-of-the-types-of-challenges-we-may-encounter",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Example of the types of challenges we may encounter",
-    "text": "Example of the types of challenges we may encounter\n\nWe can use learnr for interactive exercises\n\n\nBut:\n\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally (confusing and ugly)"
+    "text": "Example of the types of challenges we may encounter\n\nWe can use learnr for interactive exercises\n\n\nBut:\n\n\n\nThe learnr package requires a running webserver\nAlternatively, students can run learnr documents locally (confusing and ugly)\n\n\n\nSimilar challenges arise throughout"
   },
   {
     "objectID": "slides/talk.html#all-the-pieces-fell-into-place-at-positconf2024",
@@ -117,6 +117,20 @@
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "A simple template to get you started",
     "text": "A simple template to get you started\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+  },
+  {
+    "objectID": "slides/talk.html#video-recordings-work-in-progress",
+    "href": "slides/talk.html#video-recordings-work-in-progress",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Video recordings (work in progress)",
+    "text": "Video recordings (work in progress)"
+  },
+  {
+    "objectID": "slides/talk.html#however-its-not-all-roses",
+    "href": "slides/talk.html#however-its-not-all-roses",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "However, it’s not all roses",
+    "text": "However, it’s not all roses\n\n\n\n\n\n\nPhoto by Jonathan Meyer on Unsplash.\nhttps://unsplash.com/photos/pink-flowers-with-green-leaves-yZJPiMC1-_k"
   },
   {
     "objectID": "slides/talk.html#is-this-approach-right-for-you",
