@@ -190,7 +190,7 @@ Quarto provides a single, unified framework for both instructor and students
 ## I completely reworked my class for spring 2025
 
 ::: {.move-up-1em}
-![](../assets/SDS366.png){width="90%" fig-align="center"}
+![](../assets/SDS366.png){width="100%" fig-align="center"}
 :::
 
 ::: {.absolute-bottom-right .tiny-font}
@@ -200,7 +200,7 @@ Quarto provides a single, unified framework for both instructor and students
 ## A simple template to get you started
 
 ::: {.move-up-1em}
-![](../assets/demo-site.png){width="90%" fig-align="center"}
+![](../assets/demo-site.png){width="100%" fig-align="center"}
 :::
 
 ::: {.absolute-bottom-right .tiny-font}
@@ -223,7 +223,6 @@ https://unsplash.com/photos/pink-flowers-with-green-leaves-yZJPiMC1-_k
 
 ## Is this approach right for you?
 
-
 ![](../assets/juan-rumimpunu-nLXOatvTaLo-unsplash.jpg){width="80%" fig-align="center"}
 
 ::: {.notes}
@@ -231,6 +230,7 @@ Photo by Juan Rumimpunu on Unsplash.
 
 https://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo
 :::
+
 
 ## Thank you!
 
