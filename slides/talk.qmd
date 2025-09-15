@@ -1,7 +1,6 @@
 ---
 title: "Teaching data visualization with R<br>entirely in Quarto"
-author: "Claus O. Wilke"
-date: last-modified
+author: "Claus O. Wilke<br>The University of Texas at Austin"
 format: 
   revealjs:
     theme:
@@ -140,24 +139,40 @@ Charlotte Wickham introduces typst
 
 ## Components of an R-based data science class
 
-:::{.small-font}
-- Slides with code and output<br>&nbsp;
+:::: {.columns}
+:::{.small-font .column width="50%"}
+- Slides with code and output<br>[xaringan / beamer / ...]{.highlight}
 
-- Website<br>&nbsp;
+- Website<br>[distill / blogdown / ...]{.highlight}
 
-- Interactive exercises<br>&nbsp;
+- Interactive exercises<br>[learnr]{.highlight}
 
-- Student assignments<br>&nbsp;
+- Student assignments<br>[RMarkdown templates]{.highlight}
 
-- Demo/support apps<br>&nbsp;
+- Demo/support apps<br>[shiny apps]{.highlight}
 :::
+::::
 
 ## Components of an R-based data science class
 
-:::{.small-font}
+:::: {.columns}
+
+:::{.small-font .column style="opacity: 30%; width:50%;"}
+- Slides with code and output<br>[xaringan / beamer / ...]{.highlight}
+
+- Website<br>[distill / blogdown / ...]{.highlight}
+
+- Interactive exercises<br>[learnr]{.highlight}
+
+- Student assignments<br>[RMarkdown templates]{.highlight}
+
+- Demo/support apps<br>[shiny apps]{.highlight}
+:::
+
+:::{.small-font .column width="50%"}
 - Slides with code and output<br>[Quarto + revealjs]{.highlight}
 
-- Website<br>[Quarto + website]{.highlight}
+- Website<br>[Quarto website]{.highlight}
 
 - Interactive exercises<br>[Quarto Live]{.highlight}
 
@@ -165,6 +180,8 @@ Charlotte Wickham introduces typst
 
 - Demo/support apps<br>[Quarto + Shiny Live]{.highlight}
 :::
+
+::::
 
 ::: {.fragment .small-font}
 Quarto provides a single, unified framework for both instructor and students
@@ -213,4 +230,12 @@ https://unsplash.com/photos/pink-flowers-with-green-leaves-yZJPiMC1-_k
 Photo by Juan Rumimpunu on Unsplash.
 
 https://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo
+:::
+
+## Thank you!
+
+![](../assets/qr.png){width="40%"}
+
+::: {.tiny-font .move-up-1em}
+<https://clauswilke.com/PositConf2025>
 :::

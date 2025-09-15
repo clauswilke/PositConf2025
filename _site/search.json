@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Teaching data visualization with R entirely in Quarto",
     "section": "",
-    "text": "This page contains materials for Claus O. Wilke’s talk at Posit::conf(2025). You can see the sources here: https://github.com/clauswilke/PositConf2025"
+    "text": "This site contains materials for Claus O. Wilke’s talk at Posit::conf(2025). The complete Quarto sources for this site are available on GitHub.\n\n https://clauswilke.com/PositConf2025"
   },
   {
     "objectID": "slides/talk.html#no-matter-how-much-you-prepare-things-will-go-wrong",
@@ -95,14 +95,14 @@
     "href": "slides/talk.html#components-of-an-r-based-data-science-class-2",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Components of an R-based data science class",
-    "text": "Components of an R-based data science class\n\n\nSlides with code and output \nWebsite \nInteractive exercises \nStudent assignments \nDemo/support apps"
+    "text": "Components of an R-based data science class\n\n\n\nSlides with code and outputxaringan / beamer / …\nWebsitedistill / blogdown / …\nInteractive exerciseslearnr\nStudent assignmentsRMarkdown templates\nDemo/support appsshiny apps"
   },
   {
     "objectID": "slides/talk.html#components-of-an-r-based-data-science-class-3",
     "href": "slides/talk.html#components-of-an-r-based-data-science-class-3",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Components of an R-based data science class",
-    "text": "Components of an R-based data science class\n\n\nSlides with code and outputQuarto + revealjs\nWebsiteQuarto + website\nInteractive exercisesQuarto Live\nStudent assignmentsQuarto + typst\nDemo/support appsQuarto + Shiny Live\n\n\n\nQuarto provides a single, unified framework for both instructor and students"
+    "text": "Components of an R-based data science class\n\n\n\nSlides with code and outputxaringan / beamer / …\nWebsitedistill / blogdown / …\nInteractive exerciseslearnr\nStudent assignmentsRMarkdown templates\nDemo/support appsshiny apps\n\n\n\nSlides with code and outputQuarto + revealjs\nWebsiteQuarto website\nInteractive exercisesQuarto Live\nStudent assignmentsQuarto + typst\nDemo/support appsQuarto + Shiny Live\n\n\n\nQuarto provides a single, unified framework for both instructor and students"
   },
   {
     "objectID": "slides/talk.html#i-completely-reworked-my-class-for-spring-2025",
@@ -138,5 +138,12 @@
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Is this approach right for you?",
     "text": "Is this approach right for you?\n\n\n\n\n\n\nPhoto by Juan Rumimpunu on Unsplash.\nhttps://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo"
+  },
+  {
+    "objectID": "slides/talk.html#thank-you",
+    "href": "slides/talk.html#thank-you",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Thank you!",
+    "text": "Thank you!\n\n\nhttps://clauswilke.com/PositConf2025"
   }
 ]

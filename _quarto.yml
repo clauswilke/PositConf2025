@@ -4,9 +4,11 @@ project:
     - "*.qmd"
     - "!assets/"
     - "!apps/"
+    - "!assignments/"
   resources:
     - "assets/"
     - "apps/bin/"
+    - "assignments/"
 
 website:
   title: "Teaching with Quarto"
@@ -26,10 +28,12 @@ website:
           - text: "Example worksheet"
             href: worksheets/worksheet.qmd
           
-      - text: Shiny apps
+      - text: Resources
         menu:
-          - text: "Shiny app example"
+          - text: "Example shiny app"
             href: apps/bin/shiny-example
+          - text: "Example assignment template"
+            href: assignments/assignment.qmd
         
     tools:
       - icon: github

@@ -1,0 +1,29 @@
+---
+title: "Example assignment"
+format:
+  typst:
+    fig-format: png
+    fig-dpi: 300
+    fig-width: 4
+    fig-height: 2.5
+---
+
+```{r}
+#| echo: false
+#| message: false
+# !! Do not edit this code chunk !!
+library(ggplot2)
+library(palmerpenguins)
+```
+
+We'll be working with the `penguins` dataset from the **palmerpenguins** package.
+
+```{r}
+penguins
+```
+
+Using ggplot2, make a scatter plot of bill length versus body mass, coloring the points by penguin species.
+
+```{r}
+# Your code here...
+```

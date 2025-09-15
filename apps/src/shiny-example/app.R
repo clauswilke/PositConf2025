@@ -7,7 +7,12 @@
 # shinylive::export("apps/src/shiny-example", "apps/bin/shiny-example")
 
 ui <- fluidPage(
-  selectInput("dataset", label = "Dataset", choices = ls("package:datasets")),
+  selectInput(
+    "dataset",
+    label = "Dataset",
+    choices = ls("package:datasets"),
+    selected = "swiss"
+  ),
   verbatimTextOutput("summary"),
   tableOutput("table")
 )
