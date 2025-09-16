@@ -207,9 +207,47 @@ Quarto provides a single, unified framework for both instructor and students
 <a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
 :::
 
-## Video recordings (work in progress)
 
-<video controls autoplay loop data-src="../assets/slides.mp4" width="100%"></video>
+## The site contains the slides for my talk
+
+::: {.move-up-1em}
+![](../assets/demo-site-slides.png){width="100%" fig-align="center"}
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
+:::
+
+## And an example worksheet
+
+::: {.move-up-1em}
+![](../assets/demo-site-worksheet.png){width="100%" fig-align="center"}
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
+:::
+
+## And an example shiny app
+
+::: {.move-up-1em}
+![](../assets/demo-site-app.png){width="100%" fig-align="center"}
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
+:::
+
+## All sources are on GitHub
+
+::: {.move-up-1em}
+![](../assets/demo-site-github.png){width="100%" fig-align="center"}
+:::
+
+::: {.absolute-bottom-right .tiny-font}
+<a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
+:::
+
 
 ## However, it's not all roses
 
@@ -238,4 +276,11 @@ https://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo
 
 ::: {.tiny-font .move-up-1em}
 <https://clauswilke.com/PositConf2025>
+:::
+
+<br>
+
+::: {.tiny-font}
+Claus O. Wilke acknowledges support by the Blumberg Professorship at The University of Texas at Austin.
+
 :::
