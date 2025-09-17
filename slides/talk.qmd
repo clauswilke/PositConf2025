@@ -218,6 +218,10 @@ Quarto provides a single, unified framework for both instructor and students
 <a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
 :::
 
+## The site contains the slides for my talk
+
+<video controls autoplay loop data-src="../assets/slides.mp4" width="100%"></video>
+
 ## And an example worksheet
 
 ::: {.move-up-1em}
@@ -228,7 +232,11 @@ Quarto provides a single, unified framework for both instructor and students
 <a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
 :::
 
-## And an example shiny app
+## And an example worksheet
+
+<video controls autoplay loop data-src="../assets/worksheet.mp4" width="100%"></video>
+
+## There's also a shiny app
 
 ::: {.move-up-1em}
 ![](../assets/demo-site-app.png){width="100%" fig-align="center"}
@@ -238,6 +246,10 @@ Quarto provides a single, unified framework for both instructor and students
 <a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
 :::
 
+## There's also a shiny app
+
+<video controls autoplay loop data-src="../assets/app.mp4" width="100%"></video>
+
 ## All sources are on GitHub
 
 ::: {.move-up-1em}
@@ -245,8 +257,26 @@ Quarto provides a single, unified framework for both instructor and students
 :::
 
 ::: {.absolute-bottom-right .tiny-font}
-<a href="https://clauswilke.com/PositConf2025" target="_blank">https://clauswilke.com/PositConf2025</a>
+<a href="https://github.com/clauswilke/PositConf2025" target="_blank">https://github.com/clauswilke/PositConf2025</a>
 :::
+
+## Some things I've learned
+
+1. Live HTML pages need separate themeing
+
+![](../assets/quarto-yml.png){width="60%" fig-align="left"}
+
+## Some things I've learned
+
+2. You need to write a lot of CSS code for your slide decks
+
+<video controls autoplay loop data-src="../assets/slides-scss.mp4" width="80%"></video>
+
+## Some things I've learned
+
+3. Deploying shiny apps is super easy
+
+![](../assets/shiny-deploy.png){width="95%" fig-align="left"}
 
 
 ## However, it's not all roses
@@ -281,6 +311,6 @@ https://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo
 <br>
 
 ::: {.tiny-font}
-Claus O. Wilke acknowledges support by the Blumberg Professorship at The University of Texas at Austin.
+Claus O. Wilke acknowledges support by the Blumberg Professorship at The University of Texas at Austin
 
 :::

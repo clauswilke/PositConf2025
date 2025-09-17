@@ -119,11 +119,53 @@
     "text": "A simple template to get you started\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
   },
   {
-    "objectID": "slides/talk.html#video-recordings-work-in-progress",
-    "href": "slides/talk.html#video-recordings-work-in-progress",
+    "objectID": "slides/talk.html#the-site-contains-the-slides-for-my-talk",
+    "href": "slides/talk.html#the-site-contains-the-slides-for-my-talk",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Video recordings (work in progress)",
-    "text": "Video recordings (work in progress)"
+    "section": "The site contains the slides for my talk",
+    "text": "The site contains the slides for my talk\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+  },
+  {
+    "objectID": "slides/talk.html#the-site-contains-the-slides-for-my-talk-1",
+    "href": "slides/talk.html#the-site-contains-the-slides-for-my-talk-1",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "The site contains the slides for my talk",
+    "text": "The site contains the slides for my talk"
+  },
+  {
+    "objectID": "slides/talk.html#and-an-example-worksheet",
+    "href": "slides/talk.html#and-an-example-worksheet",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "And an example worksheet",
+    "text": "And an example worksheet\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+  },
+  {
+    "objectID": "slides/talk.html#and-an-example-worksheet-1",
+    "href": "slides/talk.html#and-an-example-worksheet-1",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "And an example worksheet",
+    "text": "And an example worksheet"
+  },
+  {
+    "objectID": "slides/talk.html#theres-also-a-shiny-app",
+    "href": "slides/talk.html#theres-also-a-shiny-app",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "There’s also a shiny app",
+    "text": "There’s also a shiny app\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+  },
+  {
+    "objectID": "slides/talk.html#theres-also-a-shiny-app-1",
+    "href": "slides/talk.html#theres-also-a-shiny-app-1",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "There’s also a shiny app",
+    "text": "There’s also a shiny app"
+  },
+  {
+    "objectID": "slides/talk.html#all-sources-are-on-github",
+    "href": "slides/talk.html#all-sources-are-on-github",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "All sources are on GitHub",
+    "text": "All sources are on GitHub\n\n\n\n\n\n\n\n\nhttps://github.com/clauswilke/PositConf2025"
   },
   {
     "objectID": "slides/talk.html#however-its-not-all-roses",
@@ -144,34 +186,41 @@
     "href": "slides/talk.html#thank-you",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Thank you!",
-    "text": "Thank you!\n\n\nhttps://clauswilke.com/PositConf2025\n\n\n\nClaus O. Wilke acknowledges support by the Blumberg Professorship at The University of Texas at Austin."
+    "text": "Thank you!\n\n\nhttps://clauswilke.com/PositConf2025\n\n\n\nClaus O. Wilke acknowledges support by the Blumberg Professorship at The University of Texas at Austin"
   },
   {
-    "objectID": "slides/talk.html#the-site-contains-the-slides-for-my-talk",
-    "href": "slides/talk.html#the-site-contains-the-slides-for-my-talk",
+    "objectID": "slides/talk.html#some-things-ive-learned-1.-live-html-pages-need-separate-themeing",
+    "href": "slides/talk.html#some-things-ive-learned-1.-live-html-pages-need-separate-themeing",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "The site contains the slides for my talk",
-    "text": "The site contains the slides for my talk\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+    "section": "Some things I’ve learned:1. Live HTML pages need separate themeing",
+    "text": "Some things I’ve learned:1. Live HTML pages need separate themeing"
   },
   {
-    "objectID": "slides/talk.html#and-an-example-worksheet",
-    "href": "slides/talk.html#and-an-example-worksheet",
+    "objectID": "slides/talk.html#some-things-ive-learned-2.-you-need-to-write-a-lot-of-css-code-for-your-slide-decks",
+    "href": "slides/talk.html#some-things-ive-learned-2.-you-need-to-write-a-lot-of-css-code-for-your-slide-decks",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "And an example worksheet",
-    "text": "And an example worksheet\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+    "section": "Some things I’ve learned:2. You need to write a lot of CSS code for your slide decks",
+    "text": "Some things I’ve learned:2. You need to write a lot of CSS code for your slide decks"
   },
   {
-    "objectID": "slides/talk.html#and-an-example-shiny-app",
-    "href": "slides/talk.html#and-an-example-shiny-app",
+    "objectID": "slides/talk.html#some-things-ive-learned",
+    "href": "slides/talk.html#some-things-ive-learned",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "And an example shiny app",
-    "text": "And an example shiny app\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+    "section": "Some things I’ve learned",
+    "text": "Some things I’ve learned\n\nLive HTML pages need separate themeing"
   },
   {
-    "objectID": "slides/talk.html#all-sources-are-on-github",
-    "href": "slides/talk.html#all-sources-are-on-github",
+    "objectID": "slides/talk.html#some-things-ive-learned-1",
+    "href": "slides/talk.html#some-things-ive-learned-1",
     "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "All sources are on GitHub",
-    "text": "All sources are on GitHub\n\n\n\n\n\n\n\n\nhttps://clauswilke.com/PositConf2025"
+    "section": "Some things I’ve learned",
+    "text": "Some things I’ve learned\n\nYou need to write a lot of CSS code for your slide decks"
+  },
+  {
+    "objectID": "slides/talk.html#some-things-ive-learned-2",
+    "href": "slides/talk.html#some-things-ive-learned-2",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Some things I’ve learned",
+    "text": "Some things I’ve learned\n\nDeploying shiny apps is super easy"
   }
 ]
