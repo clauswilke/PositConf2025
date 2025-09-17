@@ -207,18 +207,25 @@
     "href": "slides/talk.html#some-things-ive-learned",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Some things I’ve learned",
-    "text": "Some things I’ve learned\n\nLive HTML pages need separate themeing"
+    "text": "Some things I’ve learned"
   },
   {
     "objectID": "slides/talk.html#some-things-ive-learned-1",
     "href": "slides/talk.html#some-things-ive-learned-1",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Some things I’ve learned",
-    "text": "Some things I’ve learned\n\nYou need to write a lot of CSS code for your slide decks"
+    "text": "Some things I’ve learned\n\nLive HTML pages need separate themeing"
   },
   {
     "objectID": "slides/talk.html#some-things-ive-learned-2",
     "href": "slides/talk.html#some-things-ive-learned-2",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Some things I’ve learned",
+    "text": "Some things I’ve learned\n\nYou need to write a lot of CSS code for your slide decks"
+  },
+  {
+    "objectID": "slides/talk.html#some-things-ive-learned-3",
+    "href": "slides/talk.html#some-things-ive-learned-3",
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Some things I’ve learned",
     "text": "Some things I’ve learned\n\nDeploying shiny apps is super easy"

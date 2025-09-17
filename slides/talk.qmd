@@ -262,6 +262,8 @@ Quarto provides a single, unified framework for both instructor and students
 
 ## Some things I've learned
 
+## Some things I've learned
+
 1. Live HTML pages need separate themeing
 
 ![](../assets/quarto-yml.png){width="60%" fig-align="left"}
