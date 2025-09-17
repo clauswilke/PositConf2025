@@ -220,7 +220,7 @@ Quarto provides a single, unified framework for both instructor and students
 
 ## The site contains the slides for my talk
 
-<video controls autoplay loop data-src="../assets/slides.mp4" width="100%"></video>
+<video controls loop data-src="../assets/slides.mp4" width="100%"></video>
 
 ## And an example worksheet
 
@@ -234,7 +234,7 @@ Quarto provides a single, unified framework for both instructor and students
 
 ## And an example worksheet
 
-<video controls autoplay loop data-src="../assets/worksheet.mp4" width="100%"></video>
+<video controls loop data-src="../assets/worksheet.mp4" width="100%"></video>
 
 ## There's also a shiny app
 
@@ -248,7 +248,7 @@ Quarto provides a single, unified framework for both instructor and students
 
 ## There's also a shiny app
 
-<video controls autoplay loop data-src="../assets/app.mp4" width="100%"></video>
+<video controls loop data-src="../assets/app.mp4" width="100%"></video>
 
 ## All sources are on GitHub
 
@@ -272,7 +272,7 @@ Quarto provides a single, unified framework for both instructor and students
 
 2. You need to write a lot of CSS code for your slide decks
 
-<video controls autoplay loop data-src="../assets/slides-scss.mp4" width="80%"></video>
+<video controls loop data-src="../assets/slides-scss.mp4" width="80%"></video>
 
 ## Some things I've learned
 

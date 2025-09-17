@@ -168,41 +168,6 @@
     "text": "All sources are on GitHub\n\n\n\n\n\n\n\n\nhttps://github.com/clauswilke/PositConf2025"
   },
   {
-    "objectID": "slides/talk.html#however-its-not-all-roses",
-    "href": "slides/talk.html#however-its-not-all-roses",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "However, it’s not all roses",
-    "text": "However, it’s not all roses\n\n\n\n\n\n\nPhoto by Jonathan Meyer on Unsplash.\nhttps://unsplash.com/photos/pink-flowers-with-green-leaves-yZJPiMC1-_k"
-  },
-  {
-    "objectID": "slides/talk.html#is-this-approach-right-for-you",
-    "href": "slides/talk.html#is-this-approach-right-for-you",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Is this approach right for you?",
-    "text": "Is this approach right for you?\n\n\n\n\n\n\nPhoto by Juan Rumimpunu on Unsplash.\nhttps://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo"
-  },
-  {
-    "objectID": "slides/talk.html#thank-you",
-    "href": "slides/talk.html#thank-you",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Thank you!",
-    "text": "Thank you!\n\n\nhttps://clauswilke.com/PositConf2025\n\n\n\nClaus O. Wilke acknowledges support by the Blumberg Professorship at The University of Texas at Austin"
-  },
-  {
-    "objectID": "slides/talk.html#some-things-ive-learned-1.-live-html-pages-need-separate-themeing",
-    "href": "slides/talk.html#some-things-ive-learned-1.-live-html-pages-need-separate-themeing",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Some things I’ve learned:1. Live HTML pages need separate themeing",
-    "text": "Some things I’ve learned:1. Live HTML pages need separate themeing"
-  },
-  {
-    "objectID": "slides/talk.html#some-things-ive-learned-2.-you-need-to-write-a-lot-of-css-code-for-your-slide-decks",
-    "href": "slides/talk.html#some-things-ive-learned-2.-you-need-to-write-a-lot-of-css-code-for-your-slide-decks",
-    "title": "Teaching data visualization with Rentirely in Quarto",
-    "section": "Some things I’ve learned:2. You need to write a lot of CSS code for your slide decks",
-    "text": "Some things I’ve learned:2. You need to write a lot of CSS code for your slide decks"
-  },
-  {
     "objectID": "slides/talk.html#some-things-ive-learned",
     "href": "slides/talk.html#some-things-ive-learned",
     "title": "Teaching data visualization with Rentirely in Quarto",
@@ -229,5 +194,26 @@
     "title": "Teaching data visualization with Rentirely in Quarto",
     "section": "Some things I’ve learned",
     "text": "Some things I’ve learned\n\nDeploying shiny apps is super easy"
+  },
+  {
+    "objectID": "slides/talk.html#however-its-not-all-roses",
+    "href": "slides/talk.html#however-its-not-all-roses",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "However, it’s not all roses",
+    "text": "However, it’s not all roses\n\n\n\n\n\n\nPhoto by Jonathan Meyer on Unsplash.\nhttps://unsplash.com/photos/pink-flowers-with-green-leaves-yZJPiMC1-_k"
+  },
+  {
+    "objectID": "slides/talk.html#is-this-approach-right-for-you",
+    "href": "slides/talk.html#is-this-approach-right-for-you",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Is this approach right for you?",
+    "text": "Is this approach right for you?\n\n\n\n\n\n\nPhoto by Juan Rumimpunu on Unsplash.\nhttps://unsplash.com/photos/gray-monkey-in-bokeh-photography-nLXOatvTaLo"
+  },
+  {
+    "objectID": "slides/talk.html#thank-you",
+    "href": "slides/talk.html#thank-you",
+    "title": "Teaching data visualization with Rentirely in Quarto",
+    "section": "Thank you!",
+    "text": "Thank you!\n\n\nhttps://clauswilke.com/PositConf2025\n\n\n\nClaus O. Wilke acknowledges support by the Blumberg Professorship at The University of Texas at Austin"
   }
 ]
